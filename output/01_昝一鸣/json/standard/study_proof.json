@@ -1,0 +1,23 @@
+{
+  "image": "study_proof.png",
+  "doc_type": "study_proof",
+  "variant": {},
+  "generated_at": "2026-07-08T15:43:53.128310",
+  "ground_truth": {
+    "name": "昝一鸣",
+    "gender": "男",
+    "id_number": "51010619880507776X",
+    "birth_date": "1988-05-07",
+    "university": "上海交通大学",
+    "major": "软件工程",
+    "level": "博士研究生",
+    "start_date": "2016-09-01",
+    "expected_graduation": "2020-06-30",
+    "student_no": "2016600489",
+    "status": "在读"
+  },
+  "image_size": {
+    "width": 1240,
+    "height": 1754
+  }
+}

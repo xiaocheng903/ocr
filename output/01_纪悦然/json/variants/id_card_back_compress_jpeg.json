@@ -1,0 +1,22 @@
+{
+  "image": "id_card_back_compress_jpeg.png",
+  "doc_type": "id_card_back",
+  "variant": {
+    "type": "compress",
+    "method": "jpeg",
+    "quality": 63
+  },
+  "generated_at": "2026-07-08T16:05:01.607446",
+  "ground_truth": {
+    "name": "纪悦然",
+    "gender": "女",
+    "ethnicity": "汉族",
+    "birth_date": "1995-10-17",
+    "address": "辽宁省大连市市市中心区区文化街道37号46室",
+    "id_number": "330102199510172482"
+  },
+  "image_size": {
+    "width": 1180,
+    "height": 803
+  }
+}

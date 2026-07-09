@@ -1,0 +1,24 @@
+{
+  "image": "education_cert_lighting_uneven.png",
+  "doc_type": "education_cert",
+  "variant": {
+    "type": "lighting",
+    "method": "uneven"
+  },
+  "generated_at": "2026-07-08T16:05:04.920050",
+  "ground_truth": {
+    "name": "纪悦然",
+    "gender": "女",
+    "birth_date": "1995-10-17",
+    "university": "华中科技大学",
+    "major": "临床医学",
+    "level": "博士研究生",
+    "start_date": "2020-09-01",
+    "end_date": "2024-06-30",
+    "cert_no": "2020161682"
+  },
+  "image_size": {
+    "width": 1240,
+    "height": 1754
+  }
+}

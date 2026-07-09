@@ -1,0 +1,26 @@
+{
+  "image": "study_proof_occlusion_finger.png",
+  "doc_type": "study_proof",
+  "variant": {
+    "type": "occlusion",
+    "method": "finger"
+  },
+  "generated_at": "2026-07-08T16:11:33.032687",
+  "ground_truth": {
+    "name": "厍夏岚",
+    "gender": "女",
+    "id_number": "310104199601195814",
+    "birth_date": "1996-01-19",
+    "university": "浙江大学",
+    "major": "汉语言文学",
+    "level": "本科",
+    "start_date": "2009-09-01",
+    "expected_graduation": "2013-06-30",
+    "student_no": "2009316071",
+    "status": "在读"
+  },
+  "image_size": {
+    "width": 1240,
+    "height": 1754
+  }
+}

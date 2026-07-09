@@ -1,0 +1,92 @@
+{
+  "candidate_id": "CAND-20260709-赵娟伟",
+  "candidate_name": "赵娟伟",
+  "id_number": "320106197605048972",
+  "output_dir": "C:\\Users\\v-duxiaocheng\\Downloads\\codex_project\\ocr-test-data-generator\\output\\01_赵娟伟",
+  "total_files": 8,
+  "files": [
+    {
+      "doc_type": "id_card_front",
+      "doc_name": "身份证(人像面)",
+      "file": "images/standard/id_card_front.png",
+      "annotation": "json/standard/id_card_front.json",
+      "variant": null
+    },
+    {
+      "doc_type": "id_card_back",
+      "doc_name": "身份证(国徽面)",
+      "file": "images/standard/id_card_back.png",
+      "annotation": "json/standard/id_card_back.json",
+      "variant": null
+    },
+    {
+      "doc_type": "bank_card",
+      "doc_name": "银行卡",
+      "file": "images/standard/bank_card.png",
+      "annotation": "json/standard/bank_card.json",
+      "variant": null
+    },
+    {
+      "doc_type": "education_cert",
+      "doc_name": "学历证书",
+      "file": "images/standard/education_cert.png",
+      "annotation": "json/standard/education_cert.json",
+      "variant": null
+    },
+    {
+      "doc_type": "degree_cert",
+      "doc_name": "学位证书",
+      "file": "images/standard/degree_cert.png",
+      "annotation": "json/standard/degree_cert.json",
+      "variant": null
+    },
+    {
+      "doc_type": "study_proof",
+      "doc_name": "在读证明",
+      "file": "images/standard/study_proof.png",
+      "annotation": "json/standard/study_proof.json",
+      "variant": null
+    },
+    {
+      "doc_type": "resignation_proof",
+      "doc_name": "离职证明",
+      "file": "images/standard/resignation_proof.png",
+      "annotation": "json/standard/resignation_proof.json",
+      "variant": null
+    },
+    {
+      "doc_type": "employment_booklet",
+      "doc_name": "劳动手册",
+      "file": "images/standard/employment_booklet.png",
+      "annotation": "json/standard/employment_booklet.json",
+      "variant": null
+    }
+  ],
+  "profile": {
+    "name": "赵娟伟",
+    "gender": "男",
+    "ethnicity": "汉族",
+    "id_number": "320106197605048972",
+    "birth_date": "1976-05-04",
+    "address": "福建省福州市市市中心区区建设街道341小区101栋285室",
+    "education": {
+      "level": "本科",
+      "degree": "学士",
+      "major": "数学与应用数学",
+      "university": "武汉大学",
+      "start_date": "2006-09-01",
+      "end_date": "2010-06-30",
+      "cert_no": "2006206917"
+    },
+    "employment": {
+      "company": "小米科技有限责任公司",
+      "title": "人力资源专员",
+      "hire_date": "2017-01-03",
+      "resign_date": "2018-04-09",
+      "department": "技术部"
+    },
+    "bank_name": "中信银行",
+    "bank_card": "6226904771493680191",
+    "phone": "14679653441"
+  }
+}

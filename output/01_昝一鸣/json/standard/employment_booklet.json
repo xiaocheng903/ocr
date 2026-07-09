@@ -1,0 +1,21 @@
+{
+  "image": "employment_booklet.png",
+  "doc_type": "employment_booklet",
+  "variant": {},
+  "generated_at": "2026-07-08T15:43:53.257590",
+  "ground_truth": {
+    "name": "昝一鸣",
+    "gender": "男",
+    "id_number": "51010619880507776X",
+    "birth_date": "1988-05-07",
+    "education_level": "博士研究生",
+    "company": "联想集团有限公司",
+    "title": "架构师",
+    "hire_date": "2020-09-05",
+    "resign_date": "2023-11-14"
+  },
+  "image_size": {
+    "width": 1240,
+    "height": 1754
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "image": "resignation_proof_occlusion_blocks.png",
+  "doc_type": "resignation_proof",
+  "variant": {
+    "type": "occlusion",
+    "method": "blocks",
+    "count": 4
+  },
+  "generated_at": "2026-07-08T16:11:35.794818",
+  "ground_truth": {
+    "name": "厍夏岚",
+    "id_number": "310104199601195814",
+    "company": "字节跳动科技有限公司",
+    "department": "数据部",
+    "title": "财务主管",
+    "hire_date": "2019-11-14",
+    "resign_date": "2024-04-19"
+  },
+  "image_size": {
+    "width": 1240,
+    "height": 1754
+  }
+}

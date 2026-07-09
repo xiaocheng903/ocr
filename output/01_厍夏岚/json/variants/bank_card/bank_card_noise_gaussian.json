@@ -1,0 +1,19 @@
+{
+  "image": "bank_card_noise_gaussian.png",
+  "doc_type": "bank_card",
+  "variant": {
+    "type": "noise",
+    "method": "gaussian",
+    "sigma": 5
+  },
+  "generated_at": "2026-07-08T16:11:24.307941",
+  "ground_truth": {
+    "bank_name": "招商银行",
+    "card_number": "6225989058417678364",
+    "holder_name": "厍夏岚"
+  },
+  "image_size": {
+    "width": 1120,
+    "height": 770
+  }
+}

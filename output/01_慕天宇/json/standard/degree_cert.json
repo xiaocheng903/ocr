@@ -1,0 +1,20 @@
+{
+  "image": "degree_cert.png",
+  "doc_type": "degree_cert",
+  "variant": {},
+  "generated_at": "2026-07-01T16:40:22.276415",
+  "ground_truth": {
+    "name": "慕天宇",
+    "gender": "男",
+    "birth_date": "2003-05-24",
+    "university": "大连理工大学",
+    "major": "药学",
+    "level": "本科",
+    "degree": "学士",
+    "cert_no": "2011835240"
+  },
+  "image_size": {
+    "width": 1240,
+    "height": 1754
+  }
+}

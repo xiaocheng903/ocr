@@ -1,0 +1,19 @@
+{
+  "image": "resignation_proof.png",
+  "doc_type": "resignation_proof",
+  "variant": {},
+  "generated_at": "2026-07-09T17:51:13.819519",
+  "ground_truth": {
+    "name": "逯慧",
+    "id_number": "420103199710095838",
+    "company": "华为技术有限公司",
+    "department": "产品部",
+    "title": "产品经理",
+    "hire_date": "2024-03-02",
+    "resign_date": "2029-06-08"
+  },
+  "image_size": {
+    "width": 1240,
+    "height": 1754
+  }
+}

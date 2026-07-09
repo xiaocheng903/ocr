@@ -1,0 +1,15 @@
+{
+  "image": "bank_card.png",
+  "doc_type": "bank_card",
+  "variant": {},
+  "generated_at": "2026-07-08T15:43:52.922799",
+  "ground_truth": {
+    "bank_name": "交通银行",
+    "card_number": "6222600152992995016",
+    "holder_name": "昝一鸣"
+  },
+  "image_size": {
+    "width": 1120,
+    "height": 770
+  }
+}

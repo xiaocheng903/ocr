@@ -1,0 +1,18 @@
+{
+  "image": "id_card_front.png",
+  "doc_type": "id_card_front",
+  "variant": {},
+  "generated_at": "2026-07-08T15:43:52.869370",
+  "ground_truth": {
+    "name": "昝一鸣",
+    "gender": "男",
+    "ethnicity": "维吾尔族",
+    "birth_date": "1988-05-07",
+    "address": "湖北省宜昌市市市中心区区中山街道633小区119栋722室",
+    "id_number": "51010619880507776X"
+  },
+  "image_size": {
+    "width": 1180,
+    "height": 803
+  }
+}

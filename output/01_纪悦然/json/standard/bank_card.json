@@ -1,0 +1,15 @@
+{
+  "image": "bank_card.png",
+  "doc_type": "bank_card",
+  "variant": {},
+  "generated_at": "2026-07-08T16:05:01.716049",
+  "ground_truth": {
+    "bank_name": "中国银行",
+    "card_number": "6216632177044653317",
+    "holder_name": "纪悦然"
+  },
+  "image_size": {
+    "width": 1120,
+    "height": 770
+  }
+}

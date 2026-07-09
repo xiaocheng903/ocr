@@ -1,0 +1,24 @@
+{
+  "image": "degree_cert_blur_gaussian_1.png",
+  "doc_type": "degree_cert",
+  "variant": {
+    "type": "blur",
+    "method": "gaussian",
+    "radius": 3.3
+  },
+  "generated_at": "2026-07-08T16:11:29.536115",
+  "ground_truth": {
+    "name": "厍夏岚",
+    "gender": "女",
+    "birth_date": "1996-01-19",
+    "university": "浙江大学",
+    "major": "汉语言文学",
+    "level": "本科",
+    "degree": "学士",
+    "cert_no": "2009316071"
+  },
+  "image_size": {
+    "width": 1240,
+    "height": 1754
+  }
+}

@@ -1,0 +1,2116 @@
+{
+  "candidate_id": "CAND-20260708-纪悦然",
+  "candidate_name": "纪悦然",
+  "id_number": "330102199510172482",
+  "output_dir": "C:\\Users\\v-duxiaocheng\\Downloads\\codex_project\\ocr-test-data-generator\\output\\01_纪悦然",
+  "total_files": 200,
+  "files": [
+    {
+      "doc_type": "id_card_front",
+      "doc_name": "身份证(人像面)",
+      "file": "images/standard/id_card_front.png",
+      "annotation": "json/standard/id_card_front.json",
+      "variant": null
+    },
+    {
+      "doc_type": "id_card_front",
+      "doc_name": "身份证(人像面)",
+      "file": "images/variants/id_card_front_rotate_unknown.png",
+      "annotation": "json/variants/id_card_front_rotate_unknown.json",
+      "variant": {
+        "type": "rotate",
+        "angle": -2.8
+      }
+    },
+    {
+      "doc_type": "id_card_front",
+      "doc_name": "身份证(人像面)",
+      "file": "images/variants/id_card_front_rotate_unknown_1.png",
+      "annotation": "json/variants/id_card_front_rotate_unknown_1.json",
+      "variant": {
+        "type": "rotate",
+        "angle": 5.0
+      }
+    },
+    {
+      "doc_type": "id_card_front",
+      "doc_name": "身份证(人像面)",
+      "file": "images/variants/id_card_front_rotate_unknown_2.png",
+      "annotation": "json/variants/id_card_front_rotate_unknown_2.json",
+      "variant": {
+        "type": "rotate",
+        "angle": -34.0
+      }
+    },
+    {
+      "doc_type": "id_card_front",
+      "doc_name": "身份证(人像面)",
+      "file": "images/variants/id_card_front_blur_gaussian.png",
+      "annotation": "json/variants/id_card_front_blur_gaussian.json",
+      "variant": {
+        "type": "blur",
+        "method": "gaussian",
+        "radius": 1.3
+      }
+    },
+    {
+      "doc_type": "id_card_front",
+      "doc_name": "身份证(人像面)",
+      "file": "images/variants/id_card_front_blur_gaussian_1.png",
+      "annotation": "json/variants/id_card_front_blur_gaussian_1.json",
+      "variant": {
+        "type": "blur",
+        "method": "gaussian",
+        "radius": 3.9
+      }
+    },
+    {
+      "doc_type": "id_card_front",
+      "doc_name": "身份证(人像面)",
+      "file": "images/variants/id_card_front_blur_gaussian_2.png",
+      "annotation": "json/variants/id_card_front_blur_gaussian_2.json",
+      "variant": {
+        "type": "blur",
+        "method": "gaussian",
+        "radius": 9.1
+      }
+    },
+    {
+      "doc_type": "id_card_front",
+      "doc_name": "身份证(人像面)",
+      "file": "images/variants/id_card_front_blur_motion.png",
+      "annotation": "json/variants/id_card_front_blur_motion.json",
+      "variant": {
+        "type": "blur",
+        "method": "motion",
+        "size": 11
+      }
+    },
+    {
+      "doc_type": "id_card_front",
+      "doc_name": "身份证(人像面)",
+      "file": "images/variants/id_card_front_lighting_dark.png",
+      "annotation": "json/variants/id_card_front_lighting_dark.json",
+      "variant": {
+        "type": "lighting",
+        "method": "dark",
+        "factor": 0.52
+      }
+    },
+    {
+      "doc_type": "id_card_front",
+      "doc_name": "身份证(人像面)",
+      "file": "images/variants/id_card_front_lighting_overexposed.png",
+      "annotation": "json/variants/id_card_front_lighting_overexposed.json",
+      "variant": {
+        "type": "lighting",
+        "method": "overexposed",
+        "factor": 2.16
+      }
+    },
+    {
+      "doc_type": "id_card_front",
+      "doc_name": "身份证(人像面)",
+      "file": "images/variants/id_card_front_lighting_uneven.png",
+      "annotation": "json/variants/id_card_front_lighting_uneven.json",
+      "variant": {
+        "type": "lighting",
+        "method": "uneven"
+      }
+    },
+    {
+      "doc_type": "id_card_front",
+      "doc_name": "身份证(人像面)",
+      "file": "images/variants/id_card_front_lighting_spotlight.png",
+      "annotation": "json/variants/id_card_front_lighting_spotlight.json",
+      "variant": {
+        "type": "lighting",
+        "method": "spotlight"
+      }
+    },
+    {
+      "doc_type": "id_card_front",
+      "doc_name": "身份证(人像面)",
+      "file": "images/variants/id_card_front_noise_gaussian.png",
+      "annotation": "json/variants/id_card_front_noise_gaussian.json",
+      "variant": {
+        "type": "noise",
+        "method": "gaussian",
+        "sigma": 5
+      }
+    },
+    {
+      "doc_type": "id_card_front",
+      "doc_name": "身份证(人像面)",
+      "file": "images/variants/id_card_front_noise_gaussian_1.png",
+      "annotation": "json/variants/id_card_front_noise_gaussian_1.json",
+      "variant": {
+        "type": "noise",
+        "method": "gaussian",
+        "sigma": 15
+      }
+    },
+    {
+      "doc_type": "id_card_front",
+      "doc_name": "身份证(人像面)",
+      "file": "images/variants/id_card_front_noise_gaussian_2.png",
+      "annotation": "json/variants/id_card_front_noise_gaussian_2.json",
+      "variant": {
+        "type": "noise",
+        "method": "gaussian",
+        "sigma": 30
+      }
+    },
+    {
+      "doc_type": "id_card_front",
+      "doc_name": "身份证(人像面)",
+      "file": "images/variants/id_card_front_occlusion_blocks.png",
+      "annotation": "json/variants/id_card_front_occlusion_blocks.json",
+      "variant": {
+        "type": "occlusion",
+        "method": "blocks",
+        "count": 2
+      }
+    },
+    {
+      "doc_type": "id_card_front",
+      "doc_name": "身份证(人像面)",
+      "file": "images/variants/id_card_front_occlusion_finger.png",
+      "annotation": "json/variants/id_card_front_occlusion_finger.json",
+      "variant": {
+        "type": "occlusion",
+        "method": "finger"
+      }
+    },
+    {
+      "doc_type": "id_card_front",
+      "doc_name": "身份证(人像面)",
+      "file": "images/variants/id_card_front_perspective_unknown.png",
+      "annotation": "json/variants/id_card_front_perspective_unknown.json",
+      "variant": {
+        "type": "perspective",
+        "intensity": 0.12
+      }
+    },
+    {
+      "doc_type": "id_card_front",
+      "doc_name": "身份证(人像面)",
+      "file": "images/variants/id_card_front_compress_jpeg.png",
+      "annotation": "json/variants/id_card_front_compress_jpeg.json",
+      "variant": {
+        "type": "compress",
+        "method": "jpeg",
+        "quality": 69
+      }
+    },
+    {
+      "doc_type": "id_card_front",
+      "doc_name": "身份证(人像面)",
+      "file": "images/variants/id_card_front_compress_jpeg_1.png",
+      "annotation": "json/variants/id_card_front_compress_jpeg_1.json",
+      "variant": {
+        "type": "compress",
+        "method": "jpeg",
+        "quality": 28
+      }
+    },
+    {
+      "doc_type": "id_card_front",
+      "doc_name": "身份证(人像面)",
+      "file": "images/variants/id_card_front_flip_horizontal.png",
+      "annotation": "json/variants/id_card_front_flip_horizontal.json",
+      "variant": {
+        "type": "flip",
+        "method": "horizontal"
+      }
+    },
+    {
+      "doc_type": "id_card_front",
+      "doc_name": "身份证(人像面)",
+      "file": "images/variants/id_card_front_rotate_unknown_3.png",
+      "annotation": "json/variants/id_card_front_rotate_unknown_3.json",
+      "variant": {
+        "type": "rotate",
+        "angle": 180
+      }
+    },
+    {
+      "doc_type": "id_card_front",
+      "doc_name": "身份证(人像面)",
+      "file": "images/variants/id_card_front_crop_unknown.png",
+      "annotation": "json/variants/id_card_front_crop_unknown.json",
+      "variant": {
+        "type": "crop",
+        "side": "left",
+        "ratio": 0.15
+      }
+    },
+    {
+      "doc_type": "id_card_front",
+      "doc_name": "身份证(人像面)",
+      "file": "images/variants/id_card_front_downscale_unknown.png",
+      "annotation": "json/variants/id_card_front_downscale_unknown.json",
+      "variant": {
+        "type": "downscale",
+        "scale": 0.59
+      }
+    },
+    {
+      "doc_type": "id_card_front",
+      "doc_name": "身份证(人像面)",
+      "file": "images/variants/id_card_front_downscale_unknown_1.png",
+      "annotation": "json/variants/id_card_front_downscale_unknown_1.json",
+      "variant": {
+        "type": "downscale",
+        "scale": 0.19
+      }
+    },
+    {
+      "doc_type": "id_card_back",
+      "doc_name": "身份证(国徽面)",
+      "file": "images/standard/id_card_back.png",
+      "annotation": "json/standard/id_card_back.json",
+      "variant": null
+    },
+    {
+      "doc_type": "id_card_back",
+      "doc_name": "身份证(国徽面)",
+      "file": "images/variants/id_card_back_rotate_unknown.png",
+      "annotation": "json/variants/id_card_back_rotate_unknown.json",
+      "variant": {
+        "type": "rotate",
+        "angle": -5.4
+      }
+    },
+    {
+      "doc_type": "id_card_back",
+      "doc_name": "身份证(国徽面)",
+      "file": "images/variants/id_card_back_rotate_unknown_1.png",
+      "annotation": "json/variants/id_card_back_rotate_unknown_1.json",
+      "variant": {
+        "type": "rotate",
+        "angle": -24.2
+      }
+    },
+    {
+      "doc_type": "id_card_back",
+      "doc_name": "身份证(国徽面)",
+      "file": "images/variants/id_card_back_rotate_unknown_2.png",
+      "annotation": "json/variants/id_card_back_rotate_unknown_2.json",
+      "variant": {
+        "type": "rotate",
+        "angle": -40.6
+      }
+    },
+    {
+      "doc_type": "id_card_back",
+      "doc_name": "身份证(国徽面)",
+      "file": "images/variants/id_card_back_blur_gaussian.png",
+      "annotation": "json/variants/id_card_back_blur_gaussian.json",
+      "variant": {
+        "type": "blur",
+        "method": "gaussian",
+        "radius": 1.0
+      }
+    },
+    {
+      "doc_type": "id_card_back",
+      "doc_name": "身份证(国徽面)",
+      "file": "images/variants/id_card_back_blur_gaussian_1.png",
+      "annotation": "json/variants/id_card_back_blur_gaussian_1.json",
+      "variant": {
+        "type": "blur",
+        "method": "gaussian",
+        "radius": 3.9
+      }
+    },
+    {
+      "doc_type": "id_card_back",
+      "doc_name": "身份证(国徽面)",
+      "file": "images/variants/id_card_back_blur_gaussian_2.png",
+      "annotation": "json/variants/id_card_back_blur_gaussian_2.json",
+      "variant": {
+        "type": "blur",
+        "method": "gaussian",
+        "radius": 7.5
+      }
+    },
+    {
+      "doc_type": "id_card_back",
+      "doc_name": "身份证(国徽面)",
+      "file": "images/variants/id_card_back_blur_motion.png",
+      "annotation": "json/variants/id_card_back_blur_motion.json",
+      "variant": {
+        "type": "blur",
+        "method": "motion",
+        "size": 24
+      }
+    },
+    {
+      "doc_type": "id_card_back",
+      "doc_name": "身份证(国徽面)",
+      "file": "images/variants/id_card_back_lighting_dark.png",
+      "annotation": "json/variants/id_card_back_lighting_dark.json",
+      "variant": {
+        "type": "lighting",
+        "method": "dark",
+        "factor": 0.5
+      }
+    },
+    {
+      "doc_type": "id_card_back",
+      "doc_name": "身份证(国徽面)",
+      "file": "images/variants/id_card_back_lighting_overexposed.png",
+      "annotation": "json/variants/id_card_back_lighting_overexposed.json",
+      "variant": {
+        "type": "lighting",
+        "method": "overexposed",
+        "factor": 2.1
+      }
+    },
+    {
+      "doc_type": "id_card_back",
+      "doc_name": "身份证(国徽面)",
+      "file": "images/variants/id_card_back_lighting_uneven.png",
+      "annotation": "json/variants/id_card_back_lighting_uneven.json",
+      "variant": {
+        "type": "lighting",
+        "method": "uneven"
+      }
+    },
+    {
+      "doc_type": "id_card_back",
+      "doc_name": "身份证(国徽面)",
+      "file": "images/variants/id_card_back_lighting_spotlight.png",
+      "annotation": "json/variants/id_card_back_lighting_spotlight.json",
+      "variant": {
+        "type": "lighting",
+        "method": "spotlight"
+      }
+    },
+    {
+      "doc_type": "id_card_back",
+      "doc_name": "身份证(国徽面)",
+      "file": "images/variants/id_card_back_noise_gaussian.png",
+      "annotation": "json/variants/id_card_back_noise_gaussian.json",
+      "variant": {
+        "type": "noise",
+        "method": "gaussian",
+        "sigma": 5
+      }
+    },
+    {
+      "doc_type": "id_card_back",
+      "doc_name": "身份证(国徽面)",
+      "file": "images/variants/id_card_back_noise_gaussian_1.png",
+      "annotation": "json/variants/id_card_back_noise_gaussian_1.json",
+      "variant": {
+        "type": "noise",
+        "method": "gaussian",
+        "sigma": 15
+      }
+    },
+    {
+      "doc_type": "id_card_back",
+      "doc_name": "身份证(国徽面)",
+      "file": "images/variants/id_card_back_noise_gaussian_2.png",
+      "annotation": "json/variants/id_card_back_noise_gaussian_2.json",
+      "variant": {
+        "type": "noise",
+        "method": "gaussian",
+        "sigma": 30
+      }
+    },
+    {
+      "doc_type": "id_card_back",
+      "doc_name": "身份证(国徽面)",
+      "file": "images/variants/id_card_back_occlusion_blocks.png",
+      "annotation": "json/variants/id_card_back_occlusion_blocks.json",
+      "variant": {
+        "type": "occlusion",
+        "method": "blocks",
+        "count": 1
+      }
+    },
+    {
+      "doc_type": "id_card_back",
+      "doc_name": "身份证(国徽面)",
+      "file": "images/variants/id_card_back_occlusion_finger.png",
+      "annotation": "json/variants/id_card_back_occlusion_finger.json",
+      "variant": {
+        "type": "occlusion",
+        "method": "finger"
+      }
+    },
+    {
+      "doc_type": "id_card_back",
+      "doc_name": "身份证(国徽面)",
+      "file": "images/variants/id_card_back_perspective_unknown.png",
+      "annotation": "json/variants/id_card_back_perspective_unknown.json",
+      "variant": {
+        "type": "perspective",
+        "intensity": 0.12
+      }
+    },
+    {
+      "doc_type": "id_card_back",
+      "doc_name": "身份证(国徽面)",
+      "file": "images/variants/id_card_back_compress_jpeg.png",
+      "annotation": "json/variants/id_card_back_compress_jpeg.json",
+      "variant": {
+        "type": "compress",
+        "method": "jpeg",
+        "quality": 63
+      }
+    },
+    {
+      "doc_type": "id_card_back",
+      "doc_name": "身份证(国徽面)",
+      "file": "images/variants/id_card_back_compress_jpeg_1.png",
+      "annotation": "json/variants/id_card_back_compress_jpeg_1.json",
+      "variant": {
+        "type": "compress",
+        "method": "jpeg",
+        "quality": 34
+      }
+    },
+    {
+      "doc_type": "id_card_back",
+      "doc_name": "身份证(国徽面)",
+      "file": "images/variants/id_card_back_flip_horizontal.png",
+      "annotation": "json/variants/id_card_back_flip_horizontal.json",
+      "variant": {
+        "type": "flip",
+        "method": "horizontal"
+      }
+    },
+    {
+      "doc_type": "id_card_back",
+      "doc_name": "身份证(国徽面)",
+      "file": "images/variants/id_card_back_rotate_unknown_3.png",
+      "annotation": "json/variants/id_card_back_rotate_unknown_3.json",
+      "variant": {
+        "type": "rotate",
+        "angle": 180
+      }
+    },
+    {
+      "doc_type": "id_card_back",
+      "doc_name": "身份证(国徽面)",
+      "file": "images/variants/id_card_back_crop_unknown.png",
+      "annotation": "json/variants/id_card_back_crop_unknown.json",
+      "variant": {
+        "type": "crop",
+        "side": "bottom",
+        "ratio": 0.15
+      }
+    },
+    {
+      "doc_type": "id_card_back",
+      "doc_name": "身份证(国徽面)",
+      "file": "images/variants/id_card_back_downscale_unknown.png",
+      "annotation": "json/variants/id_card_back_downscale_unknown.json",
+      "variant": {
+        "type": "downscale",
+        "scale": 0.64
+      }
+    },
+    {
+      "doc_type": "id_card_back",
+      "doc_name": "身份证(国徽面)",
+      "file": "images/variants/id_card_back_downscale_unknown_1.png",
+      "annotation": "json/variants/id_card_back_downscale_unknown_1.json",
+      "variant": {
+        "type": "downscale",
+        "scale": 0.34
+      }
+    },
+    {
+      "doc_type": "bank_card",
+      "doc_name": "银行卡",
+      "file": "images/standard/bank_card.png",
+      "annotation": "json/standard/bank_card.json",
+      "variant": null
+    },
+    {
+      "doc_type": "bank_card",
+      "doc_name": "银行卡",
+      "file": "images/variants/bank_card_rotate_unknown.png",
+      "annotation": "json/variants/bank_card_rotate_unknown.json",
+      "variant": {
+        "type": "rotate",
+        "angle": 6.5
+      }
+    },
+    {
+      "doc_type": "bank_card",
+      "doc_name": "银行卡",
+      "file": "images/variants/bank_card_rotate_unknown_1.png",
+      "annotation": "json/variants/bank_card_rotate_unknown_1.json",
+      "variant": {
+        "type": "rotate",
+        "angle": 9.6
+      }
+    },
+    {
+      "doc_type": "bank_card",
+      "doc_name": "银行卡",
+      "file": "images/variants/bank_card_rotate_unknown_2.png",
+      "annotation": "json/variants/bank_card_rotate_unknown_2.json",
+      "variant": {
+        "type": "rotate",
+        "angle": -37.2
+      }
+    },
+    {
+      "doc_type": "bank_card",
+      "doc_name": "银行卡",
+      "file": "images/variants/bank_card_blur_gaussian.png",
+      "annotation": "json/variants/bank_card_blur_gaussian.json",
+      "variant": {
+        "type": "blur",
+        "method": "gaussian",
+        "radius": 1.3
+      }
+    },
+    {
+      "doc_type": "bank_card",
+      "doc_name": "银行卡",
+      "file": "images/variants/bank_card_blur_gaussian_1.png",
+      "annotation": "json/variants/bank_card_blur_gaussian_1.json",
+      "variant": {
+        "type": "blur",
+        "method": "gaussian",
+        "radius": 2.7
+      }
+    },
+    {
+      "doc_type": "bank_card",
+      "doc_name": "银行卡",
+      "file": "images/variants/bank_card_blur_gaussian_2.png",
+      "annotation": "json/variants/bank_card_blur_gaussian_2.json",
+      "variant": {
+        "type": "blur",
+        "method": "gaussian",
+        "radius": 6.7
+      }
+    },
+    {
+      "doc_type": "bank_card",
+      "doc_name": "银行卡",
+      "file": "images/variants/bank_card_blur_motion.png",
+      "annotation": "json/variants/bank_card_blur_motion.json",
+      "variant": {
+        "type": "blur",
+        "method": "motion",
+        "size": 14
+      }
+    },
+    {
+      "doc_type": "bank_card",
+      "doc_name": "银行卡",
+      "file": "images/variants/bank_card_lighting_dark.png",
+      "annotation": "json/variants/bank_card_lighting_dark.json",
+      "variant": {
+        "type": "lighting",
+        "method": "dark",
+        "factor": 0.59
+      }
+    },
+    {
+      "doc_type": "bank_card",
+      "doc_name": "银行卡",
+      "file": "images/variants/bank_card_lighting_overexposed.png",
+      "annotation": "json/variants/bank_card_lighting_overexposed.json",
+      "variant": {
+        "type": "lighting",
+        "method": "overexposed",
+        "factor": 1.65
+      }
+    },
+    {
+      "doc_type": "bank_card",
+      "doc_name": "银行卡",
+      "file": "images/variants/bank_card_lighting_uneven.png",
+      "annotation": "json/variants/bank_card_lighting_uneven.json",
+      "variant": {
+        "type": "lighting",
+        "method": "uneven"
+      }
+    },
+    {
+      "doc_type": "bank_card",
+      "doc_name": "银行卡",
+      "file": "images/variants/bank_card_lighting_spotlight.png",
+      "annotation": "json/variants/bank_card_lighting_spotlight.json",
+      "variant": {
+        "type": "lighting",
+        "method": "spotlight"
+      }
+    },
+    {
+      "doc_type": "bank_card",
+      "doc_name": "银行卡",
+      "file": "images/variants/bank_card_noise_gaussian.png",
+      "annotation": "json/variants/bank_card_noise_gaussian.json",
+      "variant": {
+        "type": "noise",
+        "method": "gaussian",
+        "sigma": 5
+      }
+    },
+    {
+      "doc_type": "bank_card",
+      "doc_name": "银行卡",
+      "file": "images/variants/bank_card_noise_gaussian_1.png",
+      "annotation": "json/variants/bank_card_noise_gaussian_1.json",
+      "variant": {
+        "type": "noise",
+        "method": "gaussian",
+        "sigma": 15
+      }
+    },
+    {
+      "doc_type": "bank_card",
+      "doc_name": "银行卡",
+      "file": "images/variants/bank_card_noise_gaussian_2.png",
+      "annotation": "json/variants/bank_card_noise_gaussian_2.json",
+      "variant": {
+        "type": "noise",
+        "method": "gaussian",
+        "sigma": 30
+      }
+    },
+    {
+      "doc_type": "bank_card",
+      "doc_name": "银行卡",
+      "file": "images/variants/bank_card_occlusion_blocks.png",
+      "annotation": "json/variants/bank_card_occlusion_blocks.json",
+      "variant": {
+        "type": "occlusion",
+        "method": "blocks",
+        "count": 2
+      }
+    },
+    {
+      "doc_type": "bank_card",
+      "doc_name": "银行卡",
+      "file": "images/variants/bank_card_occlusion_finger.png",
+      "annotation": "json/variants/bank_card_occlusion_finger.json",
+      "variant": {
+        "type": "occlusion",
+        "method": "finger"
+      }
+    },
+    {
+      "doc_type": "bank_card",
+      "doc_name": "银行卡",
+      "file": "images/variants/bank_card_perspective_unknown.png",
+      "annotation": "json/variants/bank_card_perspective_unknown.json",
+      "variant": {
+        "type": "perspective",
+        "intensity": 0.12
+      }
+    },
+    {
+      "doc_type": "bank_card",
+      "doc_name": "银行卡",
+      "file": "images/variants/bank_card_compress_jpeg.png",
+      "annotation": "json/variants/bank_card_compress_jpeg.json",
+      "variant": {
+        "type": "compress",
+        "method": "jpeg",
+        "quality": 67
+      }
+    },
+    {
+      "doc_type": "bank_card",
+      "doc_name": "银行卡",
+      "file": "images/variants/bank_card_compress_jpeg_1.png",
+      "annotation": "json/variants/bank_card_compress_jpeg_1.json",
+      "variant": {
+        "type": "compress",
+        "method": "jpeg",
+        "quality": 32
+      }
+    },
+    {
+      "doc_type": "bank_card",
+      "doc_name": "银行卡",
+      "file": "images/variants/bank_card_flip_horizontal.png",
+      "annotation": "json/variants/bank_card_flip_horizontal.json",
+      "variant": {
+        "type": "flip",
+        "method": "horizontal"
+      }
+    },
+    {
+      "doc_type": "bank_card",
+      "doc_name": "银行卡",
+      "file": "images/variants/bank_card_rotate_unknown_3.png",
+      "annotation": "json/variants/bank_card_rotate_unknown_3.json",
+      "variant": {
+        "type": "rotate",
+        "angle": 180
+      }
+    },
+    {
+      "doc_type": "bank_card",
+      "doc_name": "银行卡",
+      "file": "images/variants/bank_card_crop_unknown.png",
+      "annotation": "json/variants/bank_card_crop_unknown.json",
+      "variant": {
+        "type": "crop",
+        "side": "right",
+        "ratio": 0.15
+      }
+    },
+    {
+      "doc_type": "bank_card",
+      "doc_name": "银行卡",
+      "file": "images/variants/bank_card_downscale_unknown.png",
+      "annotation": "json/variants/bank_card_downscale_unknown.json",
+      "variant": {
+        "type": "downscale",
+        "scale": 0.62
+      }
+    },
+    {
+      "doc_type": "bank_card",
+      "doc_name": "银行卡",
+      "file": "images/variants/bank_card_downscale_unknown_1.png",
+      "annotation": "json/variants/bank_card_downscale_unknown_1.json",
+      "variant": {
+        "type": "downscale",
+        "scale": 0.34
+      }
+    },
+    {
+      "doc_type": "education_cert",
+      "doc_name": "学历证书",
+      "file": "images/standard/education_cert.png",
+      "annotation": "json/standard/education_cert.json",
+      "variant": null
+    },
+    {
+      "doc_type": "education_cert",
+      "doc_name": "学历证书",
+      "file": "images/variants/education_cert_rotate_unknown.png",
+      "annotation": "json/variants/education_cert_rotate_unknown.json",
+      "variant": {
+        "type": "rotate",
+        "angle": 2.1
+      }
+    },
+    {
+      "doc_type": "education_cert",
+      "doc_name": "学历证书",
+      "file": "images/variants/education_cert_rotate_unknown_1.png",
+      "annotation": "json/variants/education_cert_rotate_unknown_1.json",
+      "variant": {
+        "type": "rotate",
+        "angle": -3.1
+      }
+    },
+    {
+      "doc_type": "education_cert",
+      "doc_name": "学历证书",
+      "file": "images/variants/education_cert_rotate_unknown_2.png",
+      "annotation": "json/variants/education_cert_rotate_unknown_2.json",
+      "variant": {
+        "type": "rotate",
+        "angle": -36.0
+      }
+    },
+    {
+      "doc_type": "education_cert",
+      "doc_name": "学历证书",
+      "file": "images/variants/education_cert_blur_gaussian.png",
+      "annotation": "json/variants/education_cert_blur_gaussian.json",
+      "variant": {
+        "type": "blur",
+        "method": "gaussian",
+        "radius": 1.2
+      }
+    },
+    {
+      "doc_type": "education_cert",
+      "doc_name": "学历证书",
+      "file": "images/variants/education_cert_blur_gaussian_1.png",
+      "annotation": "json/variants/education_cert_blur_gaussian_1.json",
+      "variant": {
+        "type": "blur",
+        "method": "gaussian",
+        "radius": 2.5
+      }
+    },
+    {
+      "doc_type": "education_cert",
+      "doc_name": "学历证书",
+      "file": "images/variants/education_cert_blur_gaussian_2.png",
+      "annotation": "json/variants/education_cert_blur_gaussian_2.json",
+      "variant": {
+        "type": "blur",
+        "method": "gaussian",
+        "radius": 5.8
+      }
+    },
+    {
+      "doc_type": "education_cert",
+      "doc_name": "学历证书",
+      "file": "images/variants/education_cert_blur_motion.png",
+      "annotation": "json/variants/education_cert_blur_motion.json",
+      "variant": {
+        "type": "blur",
+        "method": "motion",
+        "size": 22
+      }
+    },
+    {
+      "doc_type": "education_cert",
+      "doc_name": "学历证书",
+      "file": "images/variants/education_cert_lighting_dark.png",
+      "annotation": "json/variants/education_cert_lighting_dark.json",
+      "variant": {
+        "type": "lighting",
+        "method": "dark",
+        "factor": 0.55
+      }
+    },
+    {
+      "doc_type": "education_cert",
+      "doc_name": "学历证书",
+      "file": "images/variants/education_cert_lighting_overexposed.png",
+      "annotation": "json/variants/education_cert_lighting_overexposed.json",
+      "variant": {
+        "type": "lighting",
+        "method": "overexposed",
+        "factor": 1.52
+      }
+    },
+    {
+      "doc_type": "education_cert",
+      "doc_name": "学历证书",
+      "file": "images/variants/education_cert_lighting_uneven.png",
+      "annotation": "json/variants/education_cert_lighting_uneven.json",
+      "variant": {
+        "type": "lighting",
+        "method": "uneven"
+      }
+    },
+    {
+      "doc_type": "education_cert",
+      "doc_name": "学历证书",
+      "file": "images/variants/education_cert_lighting_spotlight.png",
+      "annotation": "json/variants/education_cert_lighting_spotlight.json",
+      "variant": {
+        "type": "lighting",
+        "method": "spotlight"
+      }
+    },
+    {
+      "doc_type": "education_cert",
+      "doc_name": "学历证书",
+      "file": "images/variants/education_cert_noise_gaussian.png",
+      "annotation": "json/variants/education_cert_noise_gaussian.json",
+      "variant": {
+        "type": "noise",
+        "method": "gaussian",
+        "sigma": 5
+      }
+    },
+    {
+      "doc_type": "education_cert",
+      "doc_name": "学历证书",
+      "file": "images/variants/education_cert_noise_gaussian_1.png",
+      "annotation": "json/variants/education_cert_noise_gaussian_1.json",
+      "variant": {
+        "type": "noise",
+        "method": "gaussian",
+        "sigma": 15
+      }
+    },
+    {
+      "doc_type": "education_cert",
+      "doc_name": "学历证书",
+      "file": "images/variants/education_cert_noise_gaussian_2.png",
+      "annotation": "json/variants/education_cert_noise_gaussian_2.json",
+      "variant": {
+        "type": "noise",
+        "method": "gaussian",
+        "sigma": 30
+      }
+    },
+    {
+      "doc_type": "education_cert",
+      "doc_name": "学历证书",
+      "file": "images/variants/education_cert_occlusion_blocks.png",
+      "annotation": "json/variants/education_cert_occlusion_blocks.json",
+      "variant": {
+        "type": "occlusion",
+        "method": "blocks",
+        "count": 2
+      }
+    },
+    {
+      "doc_type": "education_cert",
+      "doc_name": "学历证书",
+      "file": "images/variants/education_cert_occlusion_finger.png",
+      "annotation": "json/variants/education_cert_occlusion_finger.json",
+      "variant": {
+        "type": "occlusion",
+        "method": "finger"
+      }
+    },
+    {
+      "doc_type": "education_cert",
+      "doc_name": "学历证书",
+      "file": "images/variants/education_cert_perspective_unknown.png",
+      "annotation": "json/variants/education_cert_perspective_unknown.json",
+      "variant": {
+        "type": "perspective",
+        "intensity": 0.12
+      }
+    },
+    {
+      "doc_type": "education_cert",
+      "doc_name": "学历证书",
+      "file": "images/variants/education_cert_compress_jpeg.png",
+      "annotation": "json/variants/education_cert_compress_jpeg.json",
+      "variant": {
+        "type": "compress",
+        "method": "jpeg",
+        "quality": 77
+      }
+    },
+    {
+      "doc_type": "education_cert",
+      "doc_name": "学历证书",
+      "file": "images/variants/education_cert_compress_jpeg_1.png",
+      "annotation": "json/variants/education_cert_compress_jpeg_1.json",
+      "variant": {
+        "type": "compress",
+        "method": "jpeg",
+        "quality": 22
+      }
+    },
+    {
+      "doc_type": "education_cert",
+      "doc_name": "学历证书",
+      "file": "images/variants/education_cert_flip_horizontal.png",
+      "annotation": "json/variants/education_cert_flip_horizontal.json",
+      "variant": {
+        "type": "flip",
+        "method": "horizontal"
+      }
+    },
+    {
+      "doc_type": "education_cert",
+      "doc_name": "学历证书",
+      "file": "images/variants/education_cert_rotate_unknown_3.png",
+      "annotation": "json/variants/education_cert_rotate_unknown_3.json",
+      "variant": {
+        "type": "rotate",
+        "angle": 180
+      }
+    },
+    {
+      "doc_type": "education_cert",
+      "doc_name": "学历证书",
+      "file": "images/variants/education_cert_crop_unknown.png",
+      "annotation": "json/variants/education_cert_crop_unknown.json",
+      "variant": {
+        "type": "crop",
+        "side": "left",
+        "ratio": 0.15
+      }
+    },
+    {
+      "doc_type": "education_cert",
+      "doc_name": "学历证书",
+      "file": "images/variants/education_cert_downscale_unknown.png",
+      "annotation": "json/variants/education_cert_downscale_unknown.json",
+      "variant": {
+        "type": "downscale",
+        "scale": 0.46
+      }
+    },
+    {
+      "doc_type": "education_cert",
+      "doc_name": "学历证书",
+      "file": "images/variants/education_cert_downscale_unknown_1.png",
+      "annotation": "json/variants/education_cert_downscale_unknown_1.json",
+      "variant": {
+        "type": "downscale",
+        "scale": 0.21
+      }
+    },
+    {
+      "doc_type": "degree_cert",
+      "doc_name": "学位证书",
+      "file": "images/standard/degree_cert.png",
+      "annotation": "json/standard/degree_cert.json",
+      "variant": null
+    },
+    {
+      "doc_type": "degree_cert",
+      "doc_name": "学位证书",
+      "file": "images/variants/degree_cert_rotate_unknown.png",
+      "annotation": "json/variants/degree_cert_rotate_unknown.json",
+      "variant": {
+        "type": "rotate",
+        "angle": -3.0
+      }
+    },
+    {
+      "doc_type": "degree_cert",
+      "doc_name": "学位证书",
+      "file": "images/variants/degree_cert_rotate_unknown_1.png",
+      "annotation": "json/variants/degree_cert_rotate_unknown_1.json",
+      "variant": {
+        "type": "rotate",
+        "angle": -22.9
+      }
+    },
+    {
+      "doc_type": "degree_cert",
+      "doc_name": "学位证书",
+      "file": "images/variants/degree_cert_rotate_unknown_2.png",
+      "annotation": "json/variants/degree_cert_rotate_unknown_2.json",
+      "variant": {
+        "type": "rotate",
+        "angle": -41.5
+      }
+    },
+    {
+      "doc_type": "degree_cert",
+      "doc_name": "学位证书",
+      "file": "images/variants/degree_cert_blur_gaussian.png",
+      "annotation": "json/variants/degree_cert_blur_gaussian.json",
+      "variant": {
+        "type": "blur",
+        "method": "gaussian",
+        "radius": 1.4
+      }
+    },
+    {
+      "doc_type": "degree_cert",
+      "doc_name": "学位证书",
+      "file": "images/variants/degree_cert_blur_gaussian_1.png",
+      "annotation": "json/variants/degree_cert_blur_gaussian_1.json",
+      "variant": {
+        "type": "blur",
+        "method": "gaussian",
+        "radius": 3.5
+      }
+    },
+    {
+      "doc_type": "degree_cert",
+      "doc_name": "学位证书",
+      "file": "images/variants/degree_cert_blur_gaussian_2.png",
+      "annotation": "json/variants/degree_cert_blur_gaussian_2.json",
+      "variant": {
+        "type": "blur",
+        "method": "gaussian",
+        "radius": 7.4
+      }
+    },
+    {
+      "doc_type": "degree_cert",
+      "doc_name": "学位证书",
+      "file": "images/variants/degree_cert_blur_motion.png",
+      "annotation": "json/variants/degree_cert_blur_motion.json",
+      "variant": {
+        "type": "blur",
+        "method": "motion",
+        "size": 10
+      }
+    },
+    {
+      "doc_type": "degree_cert",
+      "doc_name": "学位证书",
+      "file": "images/variants/degree_cert_lighting_dark.png",
+      "annotation": "json/variants/degree_cert_lighting_dark.json",
+      "variant": {
+        "type": "lighting",
+        "method": "dark",
+        "factor": 0.33
+      }
+    },
+    {
+      "doc_type": "degree_cert",
+      "doc_name": "学位证书",
+      "file": "images/variants/degree_cert_lighting_overexposed.png",
+      "annotation": "json/variants/degree_cert_lighting_overexposed.json",
+      "variant": {
+        "type": "lighting",
+        "method": "overexposed",
+        "factor": 1.88
+      }
+    },
+    {
+      "doc_type": "degree_cert",
+      "doc_name": "学位证书",
+      "file": "images/variants/degree_cert_lighting_uneven.png",
+      "annotation": "json/variants/degree_cert_lighting_uneven.json",
+      "variant": {
+        "type": "lighting",
+        "method": "uneven"
+      }
+    },
+    {
+      "doc_type": "degree_cert",
+      "doc_name": "学位证书",
+      "file": "images/variants/degree_cert_lighting_spotlight.png",
+      "annotation": "json/variants/degree_cert_lighting_spotlight.json",
+      "variant": {
+        "type": "lighting",
+        "method": "spotlight"
+      }
+    },
+    {
+      "doc_type": "degree_cert",
+      "doc_name": "学位证书",
+      "file": "images/variants/degree_cert_noise_gaussian.png",
+      "annotation": "json/variants/degree_cert_noise_gaussian.json",
+      "variant": {
+        "type": "noise",
+        "method": "gaussian",
+        "sigma": 5
+      }
+    },
+    {
+      "doc_type": "degree_cert",
+      "doc_name": "学位证书",
+      "file": "images/variants/degree_cert_noise_gaussian_1.png",
+      "annotation": "json/variants/degree_cert_noise_gaussian_1.json",
+      "variant": {
+        "type": "noise",
+        "method": "gaussian",
+        "sigma": 15
+      }
+    },
+    {
+      "doc_type": "degree_cert",
+      "doc_name": "学位证书",
+      "file": "images/variants/degree_cert_noise_gaussian_2.png",
+      "annotation": "json/variants/degree_cert_noise_gaussian_2.json",
+      "variant": {
+        "type": "noise",
+        "method": "gaussian",
+        "sigma": 30
+      }
+    },
+    {
+      "doc_type": "degree_cert",
+      "doc_name": "学位证书",
+      "file": "images/variants/degree_cert_occlusion_blocks.png",
+      "annotation": "json/variants/degree_cert_occlusion_blocks.json",
+      "variant": {
+        "type": "occlusion",
+        "method": "blocks",
+        "count": 4
+      }
+    },
+    {
+      "doc_type": "degree_cert",
+      "doc_name": "学位证书",
+      "file": "images/variants/degree_cert_occlusion_finger.png",
+      "annotation": "json/variants/degree_cert_occlusion_finger.json",
+      "variant": {
+        "type": "occlusion",
+        "method": "finger"
+      }
+    },
+    {
+      "doc_type": "degree_cert",
+      "doc_name": "学位证书",
+      "file": "images/variants/degree_cert_perspective_unknown.png",
+      "annotation": "json/variants/degree_cert_perspective_unknown.json",
+      "variant": {
+        "type": "perspective",
+        "intensity": 0.12
+      }
+    },
+    {
+      "doc_type": "degree_cert",
+      "doc_name": "学位证书",
+      "file": "images/variants/degree_cert_compress_jpeg.png",
+      "annotation": "json/variants/degree_cert_compress_jpeg.json",
+      "variant": {
+        "type": "compress",
+        "method": "jpeg",
+        "quality": 78
+      }
+    },
+    {
+      "doc_type": "degree_cert",
+      "doc_name": "学位证书",
+      "file": "images/variants/degree_cert_compress_jpeg_1.png",
+      "annotation": "json/variants/degree_cert_compress_jpeg_1.json",
+      "variant": {
+        "type": "compress",
+        "method": "jpeg",
+        "quality": 26
+      }
+    },
+    {
+      "doc_type": "degree_cert",
+      "doc_name": "学位证书",
+      "file": "images/variants/degree_cert_flip_horizontal.png",
+      "annotation": "json/variants/degree_cert_flip_horizontal.json",
+      "variant": {
+        "type": "flip",
+        "method": "horizontal"
+      }
+    },
+    {
+      "doc_type": "degree_cert",
+      "doc_name": "学位证书",
+      "file": "images/variants/degree_cert_rotate_unknown_3.png",
+      "annotation": "json/variants/degree_cert_rotate_unknown_3.json",
+      "variant": {
+        "type": "rotate",
+        "angle": 180
+      }
+    },
+    {
+      "doc_type": "degree_cert",
+      "doc_name": "学位证书",
+      "file": "images/variants/degree_cert_crop_unknown.png",
+      "annotation": "json/variants/degree_cert_crop_unknown.json",
+      "variant": {
+        "type": "crop",
+        "side": "left",
+        "ratio": 0.15
+      }
+    },
+    {
+      "doc_type": "degree_cert",
+      "doc_name": "学位证书",
+      "file": "images/variants/degree_cert_downscale_unknown.png",
+      "annotation": "json/variants/degree_cert_downscale_unknown.json",
+      "variant": {
+        "type": "downscale",
+        "scale": 0.64
+      }
+    },
+    {
+      "doc_type": "degree_cert",
+      "doc_name": "学位证书",
+      "file": "images/variants/degree_cert_downscale_unknown_1.png",
+      "annotation": "json/variants/degree_cert_downscale_unknown_1.json",
+      "variant": {
+        "type": "downscale",
+        "scale": 0.16
+      }
+    },
+    {
+      "doc_type": "study_proof",
+      "doc_name": "在读证明",
+      "file": "images/standard/study_proof.png",
+      "annotation": "json/standard/study_proof.json",
+      "variant": null
+    },
+    {
+      "doc_type": "study_proof",
+      "doc_name": "在读证明",
+      "file": "images/variants/study_proof_rotate_unknown.png",
+      "annotation": "json/variants/study_proof_rotate_unknown.json",
+      "variant": {
+        "type": "rotate",
+        "angle": 3.4
+      }
+    },
+    {
+      "doc_type": "study_proof",
+      "doc_name": "在读证明",
+      "file": "images/variants/study_proof_rotate_unknown_1.png",
+      "annotation": "json/variants/study_proof_rotate_unknown_1.json",
+      "variant": {
+        "type": "rotate",
+        "angle": 10.8
+      }
+    },
+    {
+      "doc_type": "study_proof",
+      "doc_name": "在读证明",
+      "file": "images/variants/study_proof_rotate_unknown_2.png",
+      "annotation": "json/variants/study_proof_rotate_unknown_2.json",
+      "variant": {
+        "type": "rotate",
+        "angle": 37.9
+      }
+    },
+    {
+      "doc_type": "study_proof",
+      "doc_name": "在读证明",
+      "file": "images/variants/study_proof_blur_gaussian.png",
+      "annotation": "json/variants/study_proof_blur_gaussian.json",
+      "variant": {
+        "type": "blur",
+        "method": "gaussian",
+        "radius": 1.4
+      }
+    },
+    {
+      "doc_type": "study_proof",
+      "doc_name": "在读证明",
+      "file": "images/variants/study_proof_blur_gaussian_1.png",
+      "annotation": "json/variants/study_proof_blur_gaussian_1.json",
+      "variant": {
+        "type": "blur",
+        "method": "gaussian",
+        "radius": 3.9
+      }
+    },
+    {
+      "doc_type": "study_proof",
+      "doc_name": "在读证明",
+      "file": "images/variants/study_proof_blur_gaussian_2.png",
+      "annotation": "json/variants/study_proof_blur_gaussian_2.json",
+      "variant": {
+        "type": "blur",
+        "method": "gaussian",
+        "radius": 9.0
+      }
+    },
+    {
+      "doc_type": "study_proof",
+      "doc_name": "在读证明",
+      "file": "images/variants/study_proof_blur_motion.png",
+      "annotation": "json/variants/study_proof_blur_motion.json",
+      "variant": {
+        "type": "blur",
+        "method": "motion",
+        "size": 21
+      }
+    },
+    {
+      "doc_type": "study_proof",
+      "doc_name": "在读证明",
+      "file": "images/variants/study_proof_lighting_dark.png",
+      "annotation": "json/variants/study_proof_lighting_dark.json",
+      "variant": {
+        "type": "lighting",
+        "method": "dark",
+        "factor": 0.56
+      }
+    },
+    {
+      "doc_type": "study_proof",
+      "doc_name": "在读证明",
+      "file": "images/variants/study_proof_lighting_overexposed.png",
+      "annotation": "json/variants/study_proof_lighting_overexposed.json",
+      "variant": {
+        "type": "lighting",
+        "method": "overexposed",
+        "factor": 2.02
+      }
+    },
+    {
+      "doc_type": "study_proof",
+      "doc_name": "在读证明",
+      "file": "images/variants/study_proof_lighting_uneven.png",
+      "annotation": "json/variants/study_proof_lighting_uneven.json",
+      "variant": {
+        "type": "lighting",
+        "method": "uneven"
+      }
+    },
+    {
+      "doc_type": "study_proof",
+      "doc_name": "在读证明",
+      "file": "images/variants/study_proof_lighting_spotlight.png",
+      "annotation": "json/variants/study_proof_lighting_spotlight.json",
+      "variant": {
+        "type": "lighting",
+        "method": "spotlight"
+      }
+    },
+    {
+      "doc_type": "study_proof",
+      "doc_name": "在读证明",
+      "file": "images/variants/study_proof_noise_gaussian.png",
+      "annotation": "json/variants/study_proof_noise_gaussian.json",
+      "variant": {
+        "type": "noise",
+        "method": "gaussian",
+        "sigma": 5
+      }
+    },
+    {
+      "doc_type": "study_proof",
+      "doc_name": "在读证明",
+      "file": "images/variants/study_proof_noise_gaussian_1.png",
+      "annotation": "json/variants/study_proof_noise_gaussian_1.json",
+      "variant": {
+        "type": "noise",
+        "method": "gaussian",
+        "sigma": 15
+      }
+    },
+    {
+      "doc_type": "study_proof",
+      "doc_name": "在读证明",
+      "file": "images/variants/study_proof_noise_gaussian_2.png",
+      "annotation": "json/variants/study_proof_noise_gaussian_2.json",
+      "variant": {
+        "type": "noise",
+        "method": "gaussian",
+        "sigma": 30
+      }
+    },
+    {
+      "doc_type": "study_proof",
+      "doc_name": "在读证明",
+      "file": "images/variants/study_proof_occlusion_blocks.png",
+      "annotation": "json/variants/study_proof_occlusion_blocks.json",
+      "variant": {
+        "type": "occlusion",
+        "method": "blocks",
+        "count": 1
+      }
+    },
+    {
+      "doc_type": "study_proof",
+      "doc_name": "在读证明",
+      "file": "images/variants/study_proof_occlusion_finger.png",
+      "annotation": "json/variants/study_proof_occlusion_finger.json",
+      "variant": {
+        "type": "occlusion",
+        "method": "finger"
+      }
+    },
+    {
+      "doc_type": "study_proof",
+      "doc_name": "在读证明",
+      "file": "images/variants/study_proof_perspective_unknown.png",
+      "annotation": "json/variants/study_proof_perspective_unknown.json",
+      "variant": {
+        "type": "perspective",
+        "intensity": 0.12
+      }
+    },
+    {
+      "doc_type": "study_proof",
+      "doc_name": "在读证明",
+      "file": "images/variants/study_proof_compress_jpeg.png",
+      "annotation": "json/variants/study_proof_compress_jpeg.json",
+      "variant": {
+        "type": "compress",
+        "method": "jpeg",
+        "quality": 79
+      }
+    },
+    {
+      "doc_type": "study_proof",
+      "doc_name": "在读证明",
+      "file": "images/variants/study_proof_compress_jpeg_1.png",
+      "annotation": "json/variants/study_proof_compress_jpeg_1.json",
+      "variant": {
+        "type": "compress",
+        "method": "jpeg",
+        "quality": 25
+      }
+    },
+    {
+      "doc_type": "study_proof",
+      "doc_name": "在读证明",
+      "file": "images/variants/study_proof_flip_horizontal.png",
+      "annotation": "json/variants/study_proof_flip_horizontal.json",
+      "variant": {
+        "type": "flip",
+        "method": "horizontal"
+      }
+    },
+    {
+      "doc_type": "study_proof",
+      "doc_name": "在读证明",
+      "file": "images/variants/study_proof_rotate_unknown_3.png",
+      "annotation": "json/variants/study_proof_rotate_unknown_3.json",
+      "variant": {
+        "type": "rotate",
+        "angle": 180
+      }
+    },
+    {
+      "doc_type": "study_proof",
+      "doc_name": "在读证明",
+      "file": "images/variants/study_proof_crop_unknown.png",
+      "annotation": "json/variants/study_proof_crop_unknown.json",
+      "variant": {
+        "type": "crop",
+        "side": "bottom",
+        "ratio": 0.15
+      }
+    },
+    {
+      "doc_type": "study_proof",
+      "doc_name": "在读证明",
+      "file": "images/variants/study_proof_downscale_unknown.png",
+      "annotation": "json/variants/study_proof_downscale_unknown.json",
+      "variant": {
+        "type": "downscale",
+        "scale": 0.63
+      }
+    },
+    {
+      "doc_type": "study_proof",
+      "doc_name": "在读证明",
+      "file": "images/variants/study_proof_downscale_unknown_1.png",
+      "annotation": "json/variants/study_proof_downscale_unknown_1.json",
+      "variant": {
+        "type": "downscale",
+        "scale": 0.23
+      }
+    },
+    {
+      "doc_type": "resignation_proof",
+      "doc_name": "离职证明",
+      "file": "images/standard/resignation_proof.png",
+      "annotation": "json/standard/resignation_proof.json",
+      "variant": null
+    },
+    {
+      "doc_type": "resignation_proof",
+      "doc_name": "离职证明",
+      "file": "images/variants/resignation_proof_rotate_unknown.png",
+      "annotation": "json/variants/resignation_proof_rotate_unknown.json",
+      "variant": {
+        "type": "rotate",
+        "angle": -0.2
+      }
+    },
+    {
+      "doc_type": "resignation_proof",
+      "doc_name": "离职证明",
+      "file": "images/variants/resignation_proof_rotate_unknown_1.png",
+      "annotation": "json/variants/resignation_proof_rotate_unknown_1.json",
+      "variant": {
+        "type": "rotate",
+        "angle": -19.9
+      }
+    },
+    {
+      "doc_type": "resignation_proof",
+      "doc_name": "离职证明",
+      "file": "images/variants/resignation_proof_rotate_unknown_2.png",
+      "annotation": "json/variants/resignation_proof_rotate_unknown_2.json",
+      "variant": {
+        "type": "rotate",
+        "angle": 41.4
+      }
+    },
+    {
+      "doc_type": "resignation_proof",
+      "doc_name": "离职证明",
+      "file": "images/variants/resignation_proof_blur_gaussian.png",
+      "annotation": "json/variants/resignation_proof_blur_gaussian.json",
+      "variant": {
+        "type": "blur",
+        "method": "gaussian",
+        "radius": 1.4
+      }
+    },
+    {
+      "doc_type": "resignation_proof",
+      "doc_name": "离职证明",
+      "file": "images/variants/resignation_proof_blur_gaussian_1.png",
+      "annotation": "json/variants/resignation_proof_blur_gaussian_1.json",
+      "variant": {
+        "type": "blur",
+        "method": "gaussian",
+        "radius": 3.2
+      }
+    },
+    {
+      "doc_type": "resignation_proof",
+      "doc_name": "离职证明",
+      "file": "images/variants/resignation_proof_blur_gaussian_2.png",
+      "annotation": "json/variants/resignation_proof_blur_gaussian_2.json",
+      "variant": {
+        "type": "blur",
+        "method": "gaussian",
+        "radius": 7.8
+      }
+    },
+    {
+      "doc_type": "resignation_proof",
+      "doc_name": "离职证明",
+      "file": "images/variants/resignation_proof_blur_motion.png",
+      "annotation": "json/variants/resignation_proof_blur_motion.json",
+      "variant": {
+        "type": "blur",
+        "method": "motion",
+        "size": 13
+      }
+    },
+    {
+      "doc_type": "resignation_proof",
+      "doc_name": "离职证明",
+      "file": "images/variants/resignation_proof_lighting_dark.png",
+      "annotation": "json/variants/resignation_proof_lighting_dark.json",
+      "variant": {
+        "type": "lighting",
+        "method": "dark",
+        "factor": 0.52
+      }
+    },
+    {
+      "doc_type": "resignation_proof",
+      "doc_name": "离职证明",
+      "file": "images/variants/resignation_proof_lighting_overexposed.png",
+      "annotation": "json/variants/resignation_proof_lighting_overexposed.json",
+      "variant": {
+        "type": "lighting",
+        "method": "overexposed",
+        "factor": 1.79
+      }
+    },
+    {
+      "doc_type": "resignation_proof",
+      "doc_name": "离职证明",
+      "file": "images/variants/resignation_proof_lighting_uneven.png",
+      "annotation": "json/variants/resignation_proof_lighting_uneven.json",
+      "variant": {
+        "type": "lighting",
+        "method": "uneven"
+      }
+    },
+    {
+      "doc_type": "resignation_proof",
+      "doc_name": "离职证明",
+      "file": "images/variants/resignation_proof_lighting_spotlight.png",
+      "annotation": "json/variants/resignation_proof_lighting_spotlight.json",
+      "variant": {
+        "type": "lighting",
+        "method": "spotlight"
+      }
+    },
+    {
+      "doc_type": "resignation_proof",
+      "doc_name": "离职证明",
+      "file": "images/variants/resignation_proof_noise_gaussian.png",
+      "annotation": "json/variants/resignation_proof_noise_gaussian.json",
+      "variant": {
+        "type": "noise",
+        "method": "gaussian",
+        "sigma": 5
+      }
+    },
+    {
+      "doc_type": "resignation_proof",
+      "doc_name": "离职证明",
+      "file": "images/variants/resignation_proof_noise_gaussian_1.png",
+      "annotation": "json/variants/resignation_proof_noise_gaussian_1.json",
+      "variant": {
+        "type": "noise",
+        "method": "gaussian",
+        "sigma": 15
+      }
+    },
+    {
+      "doc_type": "resignation_proof",
+      "doc_name": "离职证明",
+      "file": "images/variants/resignation_proof_noise_gaussian_2.png",
+      "annotation": "json/variants/resignation_proof_noise_gaussian_2.json",
+      "variant": {
+        "type": "noise",
+        "method": "gaussian",
+        "sigma": 30
+      }
+    },
+    {
+      "doc_type": "resignation_proof",
+      "doc_name": "离职证明",
+      "file": "images/variants/resignation_proof_occlusion_blocks.png",
+      "annotation": "json/variants/resignation_proof_occlusion_blocks.json",
+      "variant": {
+        "type": "occlusion",
+        "method": "blocks",
+        "count": 1
+      }
+    },
+    {
+      "doc_type": "resignation_proof",
+      "doc_name": "离职证明",
+      "file": "images/variants/resignation_proof_occlusion_finger.png",
+      "annotation": "json/variants/resignation_proof_occlusion_finger.json",
+      "variant": {
+        "type": "occlusion",
+        "method": "finger"
+      }
+    },
+    {
+      "doc_type": "resignation_proof",
+      "doc_name": "离职证明",
+      "file": "images/variants/resignation_proof_perspective_unknown.png",
+      "annotation": "json/variants/resignation_proof_perspective_unknown.json",
+      "variant": {
+        "type": "perspective",
+        "intensity": 0.12
+      }
+    },
+    {
+      "doc_type": "resignation_proof",
+      "doc_name": "离职证明",
+      "file": "images/variants/resignation_proof_compress_jpeg.png",
+      "annotation": "json/variants/resignation_proof_compress_jpeg.json",
+      "variant": {
+        "type": "compress",
+        "method": "jpeg",
+        "quality": 65
+      }
+    },
+    {
+      "doc_type": "resignation_proof",
+      "doc_name": "离职证明",
+      "file": "images/variants/resignation_proof_compress_jpeg_1.png",
+      "annotation": "json/variants/resignation_proof_compress_jpeg_1.json",
+      "variant": {
+        "type": "compress",
+        "method": "jpeg",
+        "quality": 43
+      }
+    },
+    {
+      "doc_type": "resignation_proof",
+      "doc_name": "离职证明",
+      "file": "images/variants/resignation_proof_flip_horizontal.png",
+      "annotation": "json/variants/resignation_proof_flip_horizontal.json",
+      "variant": {
+        "type": "flip",
+        "method": "horizontal"
+      }
+    },
+    {
+      "doc_type": "resignation_proof",
+      "doc_name": "离职证明",
+      "file": "images/variants/resignation_proof_rotate_unknown_3.png",
+      "annotation": "json/variants/resignation_proof_rotate_unknown_3.json",
+      "variant": {
+        "type": "rotate",
+        "angle": 180
+      }
+    },
+    {
+      "doc_type": "resignation_proof",
+      "doc_name": "离职证明",
+      "file": "images/variants/resignation_proof_crop_unknown.png",
+      "annotation": "json/variants/resignation_proof_crop_unknown.json",
+      "variant": {
+        "type": "crop",
+        "side": "left",
+        "ratio": 0.15
+      }
+    },
+    {
+      "doc_type": "resignation_proof",
+      "doc_name": "离职证明",
+      "file": "images/variants/resignation_proof_downscale_unknown.png",
+      "annotation": "json/variants/resignation_proof_downscale_unknown.json",
+      "variant": {
+        "type": "downscale",
+        "scale": 0.55
+      }
+    },
+    {
+      "doc_type": "resignation_proof",
+      "doc_name": "离职证明",
+      "file": "images/variants/resignation_proof_downscale_unknown_1.png",
+      "annotation": "json/variants/resignation_proof_downscale_unknown_1.json",
+      "variant": {
+        "type": "downscale",
+        "scale": 0.34
+      }
+    },
+    {
+      "doc_type": "employment_booklet",
+      "doc_name": "劳动手册",
+      "file": "images/standard/employment_booklet.png",
+      "annotation": "json/standard/employment_booklet.json",
+      "variant": null
+    },
+    {
+      "doc_type": "employment_booklet",
+      "doc_name": "劳动手册",
+      "file": "images/variants/employment_booklet_rotate_unknown.png",
+      "annotation": "json/variants/employment_booklet_rotate_unknown.json",
+      "variant": {
+        "type": "rotate",
+        "angle": -1.5
+      }
+    },
+    {
+      "doc_type": "employment_booklet",
+      "doc_name": "劳动手册",
+      "file": "images/variants/employment_booklet_rotate_unknown_1.png",
+      "annotation": "json/variants/employment_booklet_rotate_unknown_1.json",
+      "variant": {
+        "type": "rotate",
+        "angle": -5.3
+      }
+    },
+    {
+      "doc_type": "employment_booklet",
+      "doc_name": "劳动手册",
+      "file": "images/variants/employment_booklet_rotate_unknown_2.png",
+      "annotation": "json/variants/employment_booklet_rotate_unknown_2.json",
+      "variant": {
+        "type": "rotate",
+        "angle": -32.2
+      }
+    },
+    {
+      "doc_type": "employment_booklet",
+      "doc_name": "劳动手册",
+      "file": "images/variants/employment_booklet_blur_gaussian.png",
+      "annotation": "json/variants/employment_booklet_blur_gaussian.json",
+      "variant": {
+        "type": "blur",
+        "method": "gaussian",
+        "radius": 1.1
+      }
+    },
+    {
+      "doc_type": "employment_booklet",
+      "doc_name": "劳动手册",
+      "file": "images/variants/employment_booklet_blur_gaussian_1.png",
+      "annotation": "json/variants/employment_booklet_blur_gaussian_1.json",
+      "variant": {
+        "type": "blur",
+        "method": "gaussian",
+        "radius": 2.1
+      }
+    },
+    {
+      "doc_type": "employment_booklet",
+      "doc_name": "劳动手册",
+      "file": "images/variants/employment_booklet_blur_gaussian_2.png",
+      "annotation": "json/variants/employment_booklet_blur_gaussian_2.json",
+      "variant": {
+        "type": "blur",
+        "method": "gaussian",
+        "radius": 9.4
+      }
+    },
+    {
+      "doc_type": "employment_booklet",
+      "doc_name": "劳动手册",
+      "file": "images/variants/employment_booklet_blur_motion.png",
+      "annotation": "json/variants/employment_booklet_blur_motion.json",
+      "variant": {
+        "type": "blur",
+        "method": "motion",
+        "size": 10
+      }
+    },
+    {
+      "doc_type": "employment_booklet",
+      "doc_name": "劳动手册",
+      "file": "images/variants/employment_booklet_lighting_dark.png",
+      "annotation": "json/variants/employment_booklet_lighting_dark.json",
+      "variant": {
+        "type": "lighting",
+        "method": "dark",
+        "factor": 0.53
+      }
+    },
+    {
+      "doc_type": "employment_booklet",
+      "doc_name": "劳动手册",
+      "file": "images/variants/employment_booklet_lighting_overexposed.png",
+      "annotation": "json/variants/employment_booklet_lighting_overexposed.json",
+      "variant": {
+        "type": "lighting",
+        "method": "overexposed",
+        "factor": 2.06
+      }
+    },
+    {
+      "doc_type": "employment_booklet",
+      "doc_name": "劳动手册",
+      "file": "images/variants/employment_booklet_lighting_uneven.png",
+      "annotation": "json/variants/employment_booklet_lighting_uneven.json",
+      "variant": {
+        "type": "lighting",
+        "method": "uneven"
+      }
+    },
+    {
+      "doc_type": "employment_booklet",
+      "doc_name": "劳动手册",
+      "file": "images/variants/employment_booklet_lighting_spotlight.png",
+      "annotation": "json/variants/employment_booklet_lighting_spotlight.json",
+      "variant": {
+        "type": "lighting",
+        "method": "spotlight"
+      }
+    },
+    {
+      "doc_type": "employment_booklet",
+      "doc_name": "劳动手册",
+      "file": "images/variants/employment_booklet_noise_gaussian.png",
+      "annotation": "json/variants/employment_booklet_noise_gaussian.json",
+      "variant": {
+        "type": "noise",
+        "method": "gaussian",
+        "sigma": 5
+      }
+    },
+    {
+      "doc_type": "employment_booklet",
+      "doc_name": "劳动手册",
+      "file": "images/variants/employment_booklet_noise_gaussian_1.png",
+      "annotation": "json/variants/employment_booklet_noise_gaussian_1.json",
+      "variant": {
+        "type": "noise",
+        "method": "gaussian",
+        "sigma": 15
+      }
+    },
+    {
+      "doc_type": "employment_booklet",
+      "doc_name": "劳动手册",
+      "file": "images/variants/employment_booklet_noise_gaussian_2.png",
+      "annotation": "json/variants/employment_booklet_noise_gaussian_2.json",
+      "variant": {
+        "type": "noise",
+        "method": "gaussian",
+        "sigma": 30
+      }
+    },
+    {
+      "doc_type": "employment_booklet",
+      "doc_name": "劳动手册",
+      "file": "images/variants/employment_booklet_occlusion_blocks.png",
+      "annotation": "json/variants/employment_booklet_occlusion_blocks.json",
+      "variant": {
+        "type": "occlusion",
+        "method": "blocks",
+        "count": 4
+      }
+    },
+    {
+      "doc_type": "employment_booklet",
+      "doc_name": "劳动手册",
+      "file": "images/variants/employment_booklet_occlusion_finger.png",
+      "annotation": "json/variants/employment_booklet_occlusion_finger.json",
+      "variant": {
+        "type": "occlusion",
+        "method": "finger"
+      }
+    },
+    {
+      "doc_type": "employment_booklet",
+      "doc_name": "劳动手册",
+      "file": "images/variants/employment_booklet_perspective_unknown.png",
+      "annotation": "json/variants/employment_booklet_perspective_unknown.json",
+      "variant": {
+        "type": "perspective",
+        "intensity": 0.12
+      }
+    },
+    {
+      "doc_type": "employment_booklet",
+      "doc_name": "劳动手册",
+      "file": "images/variants/employment_booklet_compress_jpeg.png",
+      "annotation": "json/variants/employment_booklet_compress_jpeg.json",
+      "variant": {
+        "type": "compress",
+        "method": "jpeg",
+        "quality": 65
+      }
+    },
+    {
+      "doc_type": "employment_booklet",
+      "doc_name": "劳动手册",
+      "file": "images/variants/employment_booklet_compress_jpeg_1.png",
+      "annotation": "json/variants/employment_booklet_compress_jpeg_1.json",
+      "variant": {
+        "type": "compress",
+        "method": "jpeg",
+        "quality": 31
+      }
+    },
+    {
+      "doc_type": "employment_booklet",
+      "doc_name": "劳动手册",
+      "file": "images/variants/employment_booklet_flip_horizontal.png",
+      "annotation": "json/variants/employment_booklet_flip_horizontal.json",
+      "variant": {
+        "type": "flip",
+        "method": "horizontal"
+      }
+    },
+    {
+      "doc_type": "employment_booklet",
+      "doc_name": "劳动手册",
+      "file": "images/variants/employment_booklet_rotate_unknown_3.png",
+      "annotation": "json/variants/employment_booklet_rotate_unknown_3.json",
+      "variant": {
+        "type": "rotate",
+        "angle": 180
+      }
+    },
+    {
+      "doc_type": "employment_booklet",
+      "doc_name": "劳动手册",
+      "file": "images/variants/employment_booklet_crop_unknown.png",
+      "annotation": "json/variants/employment_booklet_crop_unknown.json",
+      "variant": {
+        "type": "crop",
+        "side": "bottom",
+        "ratio": 0.15
+      }
+    },
+    {
+      "doc_type": "employment_booklet",
+      "doc_name": "劳动手册",
+      "file": "images/variants/employment_booklet_downscale_unknown.png",
+      "annotation": "json/variants/employment_booklet_downscale_unknown.json",
+      "variant": {
+        "type": "downscale",
+        "scale": 0.54
+      }
+    },
+    {
+      "doc_type": "employment_booklet",
+      "doc_name": "劳动手册",
+      "file": "images/variants/employment_booklet_downscale_unknown_1.png",
+      "annotation": "json/variants/employment_booklet_downscale_unknown_1.json",
+      "variant": {
+        "type": "downscale",
+        "scale": 0.29
+      }
+    }
+  ],
+  "profile": {
+    "name": "纪悦然",
+    "gender": "女",
+    "ethnicity": "汉族",
+    "id_number": "330102199510172482",
+    "birth_date": "1995-10-17",
+    "address": "辽宁省大连市市市中心区区文化街道37号46室",
+    "education": {
+      "level": "博士研究生",
+      "degree": "博士",
+      "major": "临床医学",
+      "university": "华中科技大学",
+      "start_date": "2020-09-01",
+      "end_date": "2024-06-30",
+      "cert_no": "2020161682"
+    },
+    "employment": {
+      "company": "小米科技有限责任公司",
+      "title": "产品经理",
+      "hire_date": "2019-08-06",
+      "resign_date": "2021-03-04",
+      "department": "运营部"
+    },
+    "bank_name": "中国银行",
+    "bank_card": "6216632177044653317",
+    "phone": "12563687924"
+  }
+}

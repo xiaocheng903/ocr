@@ -1,0 +1,27 @@
+{
+  "name": "赵娟伟",
+  "gender": "男",
+  "ethnicity": "汉族",
+  "id_number": "320106197605048972",
+  "birth_date": "1976-05-04",
+  "address": "福建省福州市市市中心区区建设街道341小区101栋285室",
+  "education": {
+    "level": "本科",
+    "degree": "学士",
+    "major": "数学与应用数学",
+    "university": "武汉大学",
+    "start_date": "2006-09-01",
+    "end_date": "2010-06-30",
+    "cert_no": "2006206917"
+  },
+  "employment": {
+    "company": "小米科技有限责任公司",
+    "title": "人力资源专员",
+    "hire_date": "2017-01-03",
+    "resign_date": "2018-04-09",
+    "department": "技术部"
+  },
+  "bank_name": "中信银行",
+  "bank_card": "6226904771493680191",
+  "phone": "14679653441"
+}

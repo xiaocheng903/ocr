@@ -1,0 +1,26 @@
+{
+  "image": "study_proof_occlusion_finger.png",
+  "doc_type": "study_proof",
+  "variant": {
+    "type": "occlusion",
+    "method": "finger"
+  },
+  "generated_at": "2026-07-08T16:05:11.267287",
+  "ground_truth": {
+    "name": "纪悦然",
+    "gender": "女",
+    "id_number": "330102199510172482",
+    "birth_date": "1995-10-17",
+    "university": "华中科技大学",
+    "major": "临床医学",
+    "level": "博士研究生",
+    "start_date": "2020-09-01",
+    "expected_graduation": "2024-06-30",
+    "student_no": "2020161682",
+    "status": "在读"
+  },
+  "image_size": {
+    "width": 1240,
+    "height": 1754
+  }
+}

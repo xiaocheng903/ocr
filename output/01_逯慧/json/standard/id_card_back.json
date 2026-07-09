@@ -1,0 +1,18 @@
+{
+  "image": "id_card_back.png",
+  "doc_type": "id_card_back",
+  "variant": {},
+  "generated_at": "2026-07-09T17:51:13.603156",
+  "ground_truth": {
+    "name": "逯慧",
+    "gender": "男",
+    "ethnicity": "回族",
+    "birth_date": "1997-10-09",
+    "address": "安徽省合肥市市庐阳区区文化街道468号22室",
+    "id_number": "420103199710095838"
+  },
+  "image_size": {
+    "width": 1180,
+    "height": 803
+  }
+}

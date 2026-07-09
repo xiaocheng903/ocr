@@ -1,0 +1,27 @@
+{
+  "name": "慕天宇",
+  "gender": "男",
+  "ethnicity": "蒙古族",
+  "id_number": "51010620030524703X",
+  "birth_date": "2003-05-24",
+  "address": "四川省成都市市青羊区区新华路680号",
+  "education": {
+    "level": "本科",
+    "degree": "学士",
+    "major": "药学",
+    "university": "大连理工大学",
+    "start_date": "2011-09-01",
+    "end_date": "2015-06-30",
+    "cert_no": "2011835240"
+  },
+  "employment": {
+    "company": "京东集团股份有限公司",
+    "title": "项目经理",
+    "hire_date": "2015-09-10",
+    "resign_date": "2016-01-19",
+    "department": "技术部"
+  },
+  "bank_name": "光大银行",
+  "bank_card": "6226600487585807124",
+  "phone": "10442022585"
+}

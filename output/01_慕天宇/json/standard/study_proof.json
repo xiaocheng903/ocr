@@ -1,0 +1,23 @@
+{
+  "image": "study_proof.png",
+  "doc_type": "study_proof",
+  "variant": {},
+  "generated_at": "2026-07-01T16:40:22.325519",
+  "ground_truth": {
+    "name": "慕天宇",
+    "gender": "男",
+    "id_number": "51010620030524703X",
+    "birth_date": "2003-05-24",
+    "university": "大连理工大学",
+    "major": "药学",
+    "level": "本科",
+    "start_date": "2011-09-01",
+    "expected_graduation": "2015-06-30",
+    "student_no": "2011835240",
+    "status": "在读"
+  },
+  "image_size": {
+    "width": 1240,
+    "height": 1754
+  }
+}

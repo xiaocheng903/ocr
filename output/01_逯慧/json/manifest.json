@@ -1,0 +1,92 @@
+{
+  "candidate_id": "CAND-20260709-逯慧",
+  "candidate_name": "逯慧",
+  "id_number": "420103199710095838",
+  "output_dir": "C:\\Users\\v-duxiaocheng\\Downloads\\codex_project\\ocr-test-data-generator\\output\\01_逯慧",
+  "total_files": 8,
+  "files": [
+    {
+      "doc_type": "id_card_front",
+      "doc_name": "身份证(人像面)",
+      "file": "images/standard/id_card_front.png",
+      "annotation": "json/standard/id_card_front.json",
+      "variant": null
+    },
+    {
+      "doc_type": "id_card_back",
+      "doc_name": "身份证(国徽面)",
+      "file": "images/standard/id_card_back.png",
+      "annotation": "json/standard/id_card_back.json",
+      "variant": null
+    },
+    {
+      "doc_type": "bank_card",
+      "doc_name": "银行卡",
+      "file": "images/standard/bank_card.png",
+      "annotation": "json/standard/bank_card.json",
+      "variant": null
+    },
+    {
+      "doc_type": "education_cert",
+      "doc_name": "学历证书",
+      "file": "images/standard/education_cert.png",
+      "annotation": "json/standard/education_cert.json",
+      "variant": null
+    },
+    {
+      "doc_type": "degree_cert",
+      "doc_name": "学位证书",
+      "file": "images/standard/degree_cert.png",
+      "annotation": "json/standard/degree_cert.json",
+      "variant": null
+    },
+    {
+      "doc_type": "study_proof",
+      "doc_name": "在读证明",
+      "file": "images/standard/study_proof.png",
+      "annotation": "json/standard/study_proof.json",
+      "variant": null
+    },
+    {
+      "doc_type": "resignation_proof",
+      "doc_name": "离职证明",
+      "file": "images/standard/resignation_proof.png",
+      "annotation": "json/standard/resignation_proof.json",
+      "variant": null
+    },
+    {
+      "doc_type": "employment_booklet",
+      "doc_name": "劳动手册",
+      "file": "images/standard/employment_booklet.png",
+      "annotation": "json/standard/employment_booklet.json",
+      "variant": null
+    }
+  ],
+  "profile": {
+    "name": "逯慧",
+    "gender": "男",
+    "ethnicity": "回族",
+    "id_number": "420103199710095838",
+    "birth_date": "1997-10-09",
+    "address": "安徽省合肥市市庐阳区区文化街道468号22室",
+    "education": {
+      "level": "本科",
+      "degree": "学士",
+      "major": "金融学",
+      "university": "东南大学",
+      "start_date": "2015-09-01",
+      "end_date": "2019-06-30",
+      "cert_no": "2015766721"
+    },
+    "employment": {
+      "company": "华为技术有限公司",
+      "title": "产品经理",
+      "hire_date": "2024-03-02",
+      "resign_date": "2029-06-08",
+      "department": "产品部"
+    },
+    "bank_name": "民生银行",
+    "bank_card": "6226151608232641128",
+    "phone": "10121115240"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "纪悦然",
+  "gender": "女",
+  "ethnicity": "汉族",
+  "id_number": "330102199510172482",
+  "birth_date": "1995-10-17",
+  "address": "辽宁省大连市市市中心区区文化街道37号46室",
+  "education": {
+    "level": "博士研究生",
+    "degree": "博士",
+    "major": "临床医学",
+    "university": "华中科技大学",
+    "start_date": "2020-09-01",
+    "end_date": "2024-06-30",
+    "cert_no": "2020161682"
+  },
+  "employment": {
+    "company": "小米科技有限责任公司",
+    "title": "产品经理",
+    "hire_date": "2019-08-06",
+    "resign_date": "2021-03-04",
+    "department": "运营部"
+  },
+  "bank_name": "中国银行",
+  "bank_card": "6216632177044653317",
+  "phone": "12563687924"
+}

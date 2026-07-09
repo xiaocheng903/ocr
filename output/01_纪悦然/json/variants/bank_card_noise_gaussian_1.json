@@ -1,0 +1,19 @@
+{
+  "image": "bank_card_noise_gaussian_1.png",
+  "doc_type": "bank_card",
+  "variant": {
+    "type": "noise",
+    "method": "gaussian",
+    "sigma": 15
+  },
+  "generated_at": "2026-07-08T16:05:02.724425",
+  "ground_truth": {
+    "bank_name": "中国银行",
+    "card_number": "6216632177044653317",
+    "holder_name": "纪悦然"
+  },
+  "image_size": {
+    "width": 1120,
+    "height": 770
+  }
+}

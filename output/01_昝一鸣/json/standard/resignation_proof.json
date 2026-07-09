@@ -1,0 +1,19 @@
+{
+  "image": "resignation_proof.png",
+  "doc_type": "resignation_proof",
+  "variant": {},
+  "generated_at": "2026-07-08T15:43:53.196178",
+  "ground_truth": {
+    "name": "昝一鸣",
+    "id_number": "51010619880507776X",
+    "company": "联想集团有限公司",
+    "department": "产品部",
+    "title": "架构师",
+    "hire_date": "2020-09-05",
+    "resign_date": "2023-11-14"
+  },
+  "image_size": {
+    "width": 1240,
+    "height": 1754
+  }
+}

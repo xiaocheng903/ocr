@@ -1,0 +1,15 @@
+{
+  "image": "bank_card.png",
+  "doc_type": "bank_card",
+  "variant": {},
+  "generated_at": "2026-07-01T16:40:22.179742",
+  "ground_truth": {
+    "bank_name": "光大银行",
+    "card_number": "6226600487585807124",
+    "holder_name": "慕天宇"
+  },
+  "image_size": {
+    "width": 1120,
+    "height": 770
+  }
+}

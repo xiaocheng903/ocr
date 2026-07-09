@@ -1,0 +1,27 @@
+{
+  "name": "昝一鸣",
+  "gender": "男",
+  "ethnicity": "维吾尔族",
+  "id_number": "51010619880507776X",
+  "birth_date": "1988-05-07",
+  "address": "湖北省宜昌市市市中心区区中山街道633小区119栋722室",
+  "education": {
+    "level": "博士研究生",
+    "degree": "博士",
+    "major": "软件工程",
+    "university": "上海交通大学",
+    "start_date": "2016-09-01",
+    "end_date": "2020-06-30",
+    "cert_no": "2016600489"
+  },
+  "employment": {
+    "company": "联想集团有限公司",
+    "title": "架构师",
+    "hire_date": "2020-09-05",
+    "resign_date": "2023-11-14",
+    "department": "产品部"
+  },
+  "bank_name": "交通银行",
+  "bank_card": "6222600152992995016",
+  "phone": "13908038833"
+}

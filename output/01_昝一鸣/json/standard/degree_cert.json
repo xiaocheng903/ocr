@@ -1,0 +1,20 @@
+{
+  "image": "degree_cert.png",
+  "doc_type": "degree_cert",
+  "variant": {},
+  "generated_at": "2026-07-08T15:43:53.039768",
+  "ground_truth": {
+    "name": "昝一鸣",
+    "gender": "男",
+    "birth_date": "1988-05-07",
+    "university": "上海交通大学",
+    "major": "软件工程",
+    "level": "博士研究生",
+    "degree": "博士",
+    "cert_no": "2016600489"
+  },
+  "image_size": {
+    "width": 1240,
+    "height": 1754
+  }
+}
