@@ -1,0 +1,21 @@
+{
+  "image": "employment_booklet.pdf",
+  "doc_type": "employment_booklet",
+  "variant": {},
+  "generated_at": "2026-07-14T15:49:12.352133",
+  "ground_truth": {
+    "name": "李丽芳",
+    "gender": "女",
+    "id_number": "310110198106155674",
+    "birth_date": "1981-06-15",
+    "education_level": "博士研究生",
+    "company": "比亚迪股份有限公司",
+    "title": "运营专员",
+    "hire_date": "2025-07-05",
+    "resign_date": "2030-01-02"
+  },
+  "image_size": {
+    "width": 1240,
+    "height": 1754
+  }
+}

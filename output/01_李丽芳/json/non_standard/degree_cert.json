@@ -1,0 +1,20 @@
+{
+  "image": "degree_cert.pdf",
+  "doc_type": "degree_cert",
+  "variant": {},
+  "generated_at": "2026-07-14T15:49:12.270892",
+  "ground_truth": {
+    "name": "李丽芳",
+    "gender": "女",
+    "birth_date": "1981-06-15",
+    "university": "山东大学",
+    "major": "金融学",
+    "level": "博士研究生",
+    "degree": "博士",
+    "cert_no": "2015480598"
+  },
+  "image_size": {
+    "width": 1240,
+    "height": 1754
+  }
+}

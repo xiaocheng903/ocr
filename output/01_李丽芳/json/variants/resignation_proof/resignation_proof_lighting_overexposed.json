@@ -1,0 +1,23 @@
+{
+  "image": "resignation_proof_lighting_overexposed.png",
+  "doc_type": "resignation_proof",
+  "variant": {
+    "type": "lighting",
+    "method": "overexposed",
+    "factor": 2.19
+  },
+  "generated_at": "2026-07-14T15:44:03.413750",
+  "ground_truth": {
+    "name": "李丽芳",
+    "id_number": "310110198106155674",
+    "company": "百度在线网络技术（北京）有限公司",
+    "department": "产品部",
+    "title": "项目经理",
+    "hire_date": "2016-06-28",
+    "resign_date": "2018-10-19"
+  },
+  "image_size": {
+    "width": 1240,
+    "height": 1754
+  }
+}

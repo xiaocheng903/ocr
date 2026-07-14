@@ -1,0 +1,15 @@
+{
+  "image": "bank_card.pdf",
+  "doc_type": "bank_card",
+  "variant": {},
+  "generated_at": "2026-07-14T15:48:25.779806",
+  "ground_truth": {
+    "bank_name": "平安银行",
+    "card_number": "6222986852060247422",
+    "holder_name": "韩国"
+  },
+  "image_size": {
+    "width": 1120,
+    "height": 770
+  }
+}

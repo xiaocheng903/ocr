@@ -1,0 +1,24 @@
+{
+  "image": "employment_booklet_perspective_unknown.png",
+  "doc_type": "employment_booklet",
+  "variant": {
+    "type": "perspective",
+    "intensity": 0.12
+  },
+  "generated_at": "2026-07-14T14:06:02.132441",
+  "ground_truth": {
+    "name": "韩国",
+    "gender": "男",
+    "id_number": "510107199908104418",
+    "birth_date": "1999-08-10",
+    "education_level": "本科",
+    "company": "深圳市大疆创新科技有限公司",
+    "title": "数据分析师",
+    "hire_date": "2019-03-08",
+    "resign_date": "2020-05-12"
+  },
+  "image_size": {
+    "width": 1240,
+    "height": 1754
+  }
+}

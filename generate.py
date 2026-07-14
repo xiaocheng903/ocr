@@ -89,8 +89,10 @@ def main():
   %(prog)s --count 10 --seed 42               # 10人, 固定种子
   %(prog)s --variants                          # 全部变异类型
   %(prog)s --variants rotate_small,blur_light  # 仅指定变异
+  %(prog)s --no-standard                       # 仅生成非标准 PDF (images/non_standard)
   %(prog)s --docs id_card_front,bank_card      # 仅指定证件类型
   %(prog)s --name 张三 --id 110101199001011234  # 指定姓名和身份证号
+  %(prog)s --docs resignation_proof --resign-date 2026-06-30  # 指定离职日期
   %(prog)s --count 3                           # 不传姓名/身份证号时随机生成
   %(prog)s --name 张三 --id 110101199001011234 --count 3  # 用同一身份生成多份
   %(prog)s --invalid-id                        # 生成校验位错误的身份证号
@@ -106,6 +108,8 @@ def main():
                         help="指定姓名（不传则随机生成）")
     parser.add_argument("--id", "--id-number", type=str, default=None, dest="id_number",
                         help="指定身份证号 (18位, 最后一位可为X；不传则随机生成)")
+    parser.add_argument("--resign-date", type=str, default=None,
+                        help="指定离职日期 (YYYY-MM-DD，仅覆盖离职相关文档日期)")
     parser.add_argument("--invalid-id", action="store_true",
                         help="生成校验位错误的身份证号")
     parser.add_argument("--rare-name", action="store_true",
@@ -118,7 +122,7 @@ def main():
                         const="__ALL__",
                         help="变异类型, 逗号分隔, 不指定则生成全部 (默认: 不生成变异)")
     parser.add_argument("--no-standard", action="store_true",
-                        help="不生成标准版本, 仅生成变异版本")
+                        help="不生成标准图片，改为生成非标准 PDF 到 images/non_standard")
     parser.add_argument("--format", type=str, default="png",
                         choices=["png", "jpg"],
                         help="输出图片格式 (默认: png)")
@@ -138,6 +142,14 @@ def main():
         args.id_number = args.id_number.strip().upper()
         if not re.fullmatch(r"\d{17}[\dX]", args.id_number):
             print("[错误] --id/--id-number 格式无效，应为18位身份证号（最后一位可为X）")
+            sys.exit(1)
+
+    if args.resign_date is not None:
+        args.resign_date = args.resign_date.strip()
+        try:
+            datetime.strptime(args.resign_date, "%Y-%m-%d")
+        except ValueError:
+            print("[错误] --resign-date 格式无效，应为 YYYY-MM-DD")
             sys.exit(1)
 
     if args.invalid_id and args.id_number:
@@ -200,6 +212,8 @@ def main():
 
         if args.invalid_id:
             profile["id_number"] = field_gen.generate_invalid_id_number()
+        if args.resign_date:
+            profile["employment"]["resign_date"] = args.resign_date
 
         # 候选人目录
         safe_name = profile["name"].replace(" ", "_").replace("/", "_")
@@ -208,10 +222,16 @@ def main():
         json_dir = os.path.join(candidate_dir, "json")
         standard_image_dir = os.path.join(images_dir, "standard")
         variants_image_dir = os.path.join(images_dir, "variants")
+        non_standard_image_dir = os.path.join(images_dir, "non_standard")
         standard_json_dir = os.path.join(json_dir, "standard")
         variants_json_dir = os.path.join(json_dir, "variants")
-        os.makedirs(standard_image_dir, exist_ok=True)
-        os.makedirs(standard_json_dir, exist_ok=True)
+        non_standard_json_dir = os.path.join(json_dir, "non_standard")
+        if args.no_standard:
+            os.makedirs(non_standard_image_dir, exist_ok=True)
+            os.makedirs(non_standard_json_dir, exist_ok=True)
+        else:
+            os.makedirs(standard_image_dir, exist_ok=True)
+            os.makedirs(standard_json_dir, exist_ok=True)
 
         files_manifest = []
 
@@ -233,27 +253,48 @@ def main():
             img = method(profile)
             img_size = img.size
 
-            # 保存标准版本
-            filename = f"{doc_key}.{args.format}"
-            filepath = os.path.join(standard_image_dir, filename)
-            img.save(filepath, quality=args.quality)
-            total_files += 1
+            if args.no_standard:
+                # 保存非标准 PDF 版本
+                filename = f"{doc_key}.pdf"
+                filepath = os.path.join(non_standard_image_dir, filename)
+                pdf_img = img.convert("RGB") if img.mode != "RGB" else img
+                pdf_img.save(filepath, "PDF")
+                total_files += 1
 
-            # 生成标注
-            ann = build_annotation(profile, doc_key, filename, image_size=img_size)
-            ann_path = os.path.join(standard_json_dir, f"{doc_key}.json")
-            with open(ann_path, "w", encoding="utf-8") as f:
-                json.dump(ann, f, ensure_ascii=False, indent=2)
+                ann = build_annotation(profile, doc_key, filename, image_size=img_size)
+                ann_path = os.path.join(non_standard_json_dir, f"{doc_key}.json")
+                with open(ann_path, "w", encoding="utf-8") as f:
+                    json.dump(ann, f, ensure_ascii=False, indent=2)
 
-            files_manifest.append({
-                "doc_type": doc_key,
-                "doc_name": doc_info["name"],
-                "file": f"images/standard/{filename}",
-                "annotation": f"json/standard/{os.path.basename(ann_path)}",
-                "variant": None,
-            })
+                files_manifest.append({
+                    "doc_type": doc_key,
+                    "doc_name": doc_info["name"],
+                    "file": f"images/non_standard/{filename}",
+                    "annotation": f"json/non_standard/{os.path.basename(ann_path)}",
+                    "variant": None,
+                })
+                print(f"  ✓ {doc_info['name']} (non_standard/pdf)")
+            else:
+                # 保存标准版本
+                filename = f"{doc_key}.{args.format}"
+                filepath = os.path.join(standard_image_dir, filename)
+                img.save(filepath, quality=args.quality)
+                total_files += 1
 
-            print(f"  ✓ {doc_info['name']}")
+                # 生成标注
+                ann = build_annotation(profile, doc_key, filename, image_size=img_size)
+                ann_path = os.path.join(standard_json_dir, f"{doc_key}.json")
+                with open(ann_path, "w", encoding="utf-8") as f:
+                    json.dump(ann, f, ensure_ascii=False, indent=2)
+
+                files_manifest.append({
+                    "doc_type": doc_key,
+                    "doc_name": doc_info["name"],
+                    "file": f"images/standard/{filename}",
+                    "annotation": f"json/standard/{os.path.basename(ann_path)}",
+                    "variant": None,
+                })
+                print(f"  ✓ {doc_info['name']}")
 
             # ── 生成变异版本 ──────────────────────────
             if variant_names or variant_names is None:

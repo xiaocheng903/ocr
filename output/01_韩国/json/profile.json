@@ -1,0 +1,27 @@
+{
+  "name": "韩国",
+  "gender": "女",
+  "ethnicity": "蒙古族",
+  "id_number": "510107199908104418",
+  "birth_date": "1999-08-10",
+  "address": "北京省北京市市丰台区区建设镇479村156号",
+  "education": {
+    "level": "专科",
+    "degree": "大专",
+    "major": "金融学",
+    "university": "南京大学",
+    "start_date": "2019-09-01",
+    "end_date": "2022-06-30",
+    "cert_no": "2019124766"
+  },
+  "employment": {
+    "company": "阿里巴巴（中国）有限公司",
+    "title": "高级工程师",
+    "hire_date": "2025-06-02",
+    "resign_date": "2026-11-26",
+    "department": "产品部"
+  },
+  "bank_name": "平安银行",
+  "bank_card": "6222986852060247422",
+  "phone": "16076595865"
+}

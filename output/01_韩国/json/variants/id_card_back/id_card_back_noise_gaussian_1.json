@@ -1,0 +1,22 @@
+{
+  "image": "id_card_back_noise_gaussian_1.png",
+  "doc_type": "id_card_back",
+  "variant": {
+    "type": "noise",
+    "method": "gaussian",
+    "sigma": 15
+  },
+  "generated_at": "2026-07-14T14:05:47.014499",
+  "ground_truth": {
+    "name": "韩国",
+    "gender": "男",
+    "ethnicity": "维吾尔族",
+    "birth_date": "1999-08-10",
+    "address": "山东省青岛市市市中心区区光明路472号",
+    "id_number": "510107199908104418"
+  },
+  "image_size": {
+    "width": 1180,
+    "height": 803
+  }
+}

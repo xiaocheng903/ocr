@@ -1,0 +1,20 @@
+{
+  "image": "degree_cert.pdf",
+  "doc_type": "degree_cert",
+  "variant": {},
+  "generated_at": "2026-07-14T15:48:25.828982",
+  "ground_truth": {
+    "name": "韩国",
+    "gender": "女",
+    "birth_date": "1999-08-10",
+    "university": "南京大学",
+    "major": "金融学",
+    "level": "专科",
+    "degree": "大专",
+    "cert_no": "2019124766"
+  },
+  "image_size": {
+    "width": 1240,
+    "height": 1754
+  }
+}

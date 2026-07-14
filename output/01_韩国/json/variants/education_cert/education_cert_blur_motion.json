@@ -1,0 +1,25 @@
+{
+  "image": "education_cert_blur_motion.png",
+  "doc_type": "education_cert",
+  "variant": {
+    "type": "blur",
+    "method": "motion",
+    "size": 14
+  },
+  "generated_at": "2026-07-14T14:05:50.191706",
+  "ground_truth": {
+    "name": "韩国",
+    "gender": "男",
+    "birth_date": "1999-08-10",
+    "university": "北京大学",
+    "major": "金融学",
+    "level": "本科",
+    "start_date": "2021-09-01",
+    "end_date": "2025-06-30",
+    "cert_no": "2021054664"
+  },
+  "image_size": {
+    "width": 1240,
+    "height": 1754
+  }
+}

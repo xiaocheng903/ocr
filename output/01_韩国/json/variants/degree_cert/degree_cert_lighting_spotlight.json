@@ -1,0 +1,23 @@
+{
+  "image": "degree_cert_lighting_spotlight.png",
+  "doc_type": "degree_cert",
+  "variant": {
+    "type": "lighting",
+    "method": "spotlight"
+  },
+  "generated_at": "2026-07-14T14:05:53.153132",
+  "ground_truth": {
+    "name": "韩国",
+    "gender": "男",
+    "birth_date": "1999-08-10",
+    "university": "北京大学",
+    "major": "金融学",
+    "level": "本科",
+    "degree": "学士",
+    "cert_no": "2021054664"
+  },
+  "image_size": {
+    "width": 1240,
+    "height": 1754
+  }
+}

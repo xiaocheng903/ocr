@@ -1,0 +1,18 @@
+{
+  "image": "bank_card_flip_horizontal.png",
+  "doc_type": "bank_card",
+  "variant": {
+    "type": "flip",
+    "method": "horizontal"
+  },
+  "generated_at": "2026-07-14T15:43:53.087154",
+  "ground_truth": {
+    "bank_name": "中国建设银行",
+    "card_number": "6222804203328806940",
+    "holder_name": "李丽芳"
+  },
+  "image_size": {
+    "width": 1120,
+    "height": 770
+  }
+}

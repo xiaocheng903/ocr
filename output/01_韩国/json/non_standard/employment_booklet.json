@@ -1,0 +1,21 @@
+{
+  "image": "employment_booklet.pdf",
+  "doc_type": "employment_booklet",
+  "variant": {},
+  "generated_at": "2026-07-14T15:48:25.934828",
+  "ground_truth": {
+    "name": "韩国",
+    "gender": "女",
+    "id_number": "510107199908104418",
+    "birth_date": "1999-08-10",
+    "education_level": "专科",
+    "company": "阿里巴巴（中国）有限公司",
+    "title": "高级工程师",
+    "hire_date": "2025-06-02",
+    "resign_date": "2026-11-26"
+  },
+  "image_size": {
+    "width": 1240,
+    "height": 1754
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "image": "resignation_proof.pdf",
+  "doc_type": "resignation_proof",
+  "variant": {},
+  "generated_at": "2026-07-14T15:48:25.891038",
+  "ground_truth": {
+    "name": "韩国",
+    "id_number": "510107199908104418",
+    "company": "阿里巴巴（中国）有限公司",
+    "department": "产品部",
+    "title": "高级工程师",
+    "hire_date": "2025-06-02",
+    "resign_date": "2026-11-26"
+  },
+  "image_size": {
+    "width": 1240,
+    "height": 1754
+  }
+}

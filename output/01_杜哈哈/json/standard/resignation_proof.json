@@ -1,0 +1,19 @@
+{
+  "image": "resignation_proof.png",
+  "doc_type": "resignation_proof",
+  "variant": {},
+  "generated_at": "2026-07-13T16:22:08.575381",
+  "ground_truth": {
+    "name": "杜哈哈",
+    "id_number": "110101199001011234",
+    "company": "腾讯科技（深圳）有限公司",
+    "department": "财务部",
+    "title": "架构师",
+    "hire_date": "2017-06-21",
+    "resign_date": "2020-12-04"
+  },
+  "image_size": {
+    "width": 1240,
+    "height": 1754
+  }
+}

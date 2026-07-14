@@ -1,0 +1,19 @@
+{
+  "image": "bank_card_crop_unknown.png",
+  "doc_type": "bank_card",
+  "variant": {
+    "type": "crop",
+    "side": "left",
+    "ratio": 0.15
+  },
+  "generated_at": "2026-07-14T14:05:48.373118",
+  "ground_truth": {
+    "bank_name": "民生银行",
+    "card_number": "6226150179622657539",
+    "holder_name": "韩国"
+  },
+  "image_size": {
+    "width": 952,
+    "height": 770
+  }
+}

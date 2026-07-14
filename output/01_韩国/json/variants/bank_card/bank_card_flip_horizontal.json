@@ -1,0 +1,18 @@
+{
+  "image": "bank_card_flip_horizontal.png",
+  "doc_type": "bank_card",
+  "variant": {
+    "type": "flip",
+    "method": "horizontal"
+  },
+  "generated_at": "2026-07-14T14:05:48.352616",
+  "ground_truth": {
+    "bank_name": "民生银行",
+    "card_number": "6226150179622657539",
+    "holder_name": "韩国"
+  },
+  "image_size": {
+    "width": 1120,
+    "height": 770
+  }
+}

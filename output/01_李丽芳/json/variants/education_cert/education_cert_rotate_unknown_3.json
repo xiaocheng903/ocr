@@ -1,0 +1,24 @@
+{
+  "image": "education_cert_rotate_unknown_3.png",
+  "doc_type": "education_cert",
+  "variant": {
+    "type": "rotate",
+    "angle": 180
+  },
+  "generated_at": "2026-07-14T15:43:55.774758",
+  "ground_truth": {
+    "name": "李丽芳",
+    "gender": "女",
+    "birth_date": "1981-06-15",
+    "university": "南京大学",
+    "major": "护理学",
+    "level": "本科",
+    "start_date": "2006-09-01",
+    "end_date": "2010-06-30",
+    "cert_no": "2006056093"
+  },
+  "image_size": {
+    "width": 1240,
+    "height": 1754
+  }
+}

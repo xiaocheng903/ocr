@@ -1,0 +1,92 @@
+{
+  "candidate_id": "CAND-20260714-李丽芳",
+  "candidate_name": "李丽芳",
+  "id_number": "310110198106155674",
+  "output_dir": "C:\\Users\\v-duxiaocheng\\Downloads\\codex_project\\ocr-test-data-generator\\output\\01_李丽芳",
+  "total_files": 8,
+  "files": [
+    {
+      "doc_type": "id_card_front",
+      "doc_name": "身份证(人像面)",
+      "file": "images/non_standard/id_card_front.pdf",
+      "annotation": "json/non_standard/id_card_front.json",
+      "variant": null
+    },
+    {
+      "doc_type": "id_card_back",
+      "doc_name": "身份证(国徽面)",
+      "file": "images/non_standard/id_card_back.pdf",
+      "annotation": "json/non_standard/id_card_back.json",
+      "variant": null
+    },
+    {
+      "doc_type": "bank_card",
+      "doc_name": "银行卡",
+      "file": "images/non_standard/bank_card.pdf",
+      "annotation": "json/non_standard/bank_card.json",
+      "variant": null
+    },
+    {
+      "doc_type": "education_cert",
+      "doc_name": "学历证书",
+      "file": "images/non_standard/education_cert.pdf",
+      "annotation": "json/non_standard/education_cert.json",
+      "variant": null
+    },
+    {
+      "doc_type": "degree_cert",
+      "doc_name": "学位证书",
+      "file": "images/non_standard/degree_cert.pdf",
+      "annotation": "json/non_standard/degree_cert.json",
+      "variant": null
+    },
+    {
+      "doc_type": "study_proof",
+      "doc_name": "在读证明",
+      "file": "images/non_standard/study_proof.pdf",
+      "annotation": "json/non_standard/study_proof.json",
+      "variant": null
+    },
+    {
+      "doc_type": "resignation_proof",
+      "doc_name": "离职证明",
+      "file": "images/non_standard/resignation_proof.pdf",
+      "annotation": "json/non_standard/resignation_proof.json",
+      "variant": null
+    },
+    {
+      "doc_type": "employment_booklet",
+      "doc_name": "劳动手册",
+      "file": "images/non_standard/employment_booklet.pdf",
+      "annotation": "json/non_standard/employment_booklet.json",
+      "variant": null
+    }
+  ],
+  "profile": {
+    "name": "李丽芳",
+    "gender": "女",
+    "ethnicity": "蒙古族",
+    "id_number": "310110198106155674",
+    "birth_date": "1981-06-15",
+    "address": "北京省北京市市丰台区区光明路10号",
+    "education": {
+      "level": "博士研究生",
+      "degree": "博士",
+      "major": "金融学",
+      "university": "山东大学",
+      "start_date": "2015-09-01",
+      "end_date": "2019-06-30",
+      "cert_no": "2015480598"
+    },
+    "employment": {
+      "company": "比亚迪股份有限公司",
+      "title": "运营专员",
+      "hire_date": "2025-07-05",
+      "resign_date": "2030-01-02",
+      "department": "技术部"
+    },
+    "bank_name": "中信银行",
+    "bank_card": "6226904932015497064",
+    "phone": "11138992529"
+  }
+}

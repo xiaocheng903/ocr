@@ -1,0 +1,22 @@
+{
+  "image": "resignation_proof_rotate_unknown_2.png",
+  "doc_type": "resignation_proof",
+  "variant": {
+    "type": "rotate",
+    "angle": 33.8
+  },
+  "generated_at": "2026-07-14T14:05:58.385199",
+  "ground_truth": {
+    "name": "韩国",
+    "id_number": "510107199908104418",
+    "company": "深圳市大疆创新科技有限公司",
+    "department": "数据部",
+    "title": "数据分析师",
+    "hire_date": "2019-03-08",
+    "resign_date": "2020-05-12"
+  },
+  "image_size": {
+    "width": 2006,
+    "height": 2148
+  }
+}

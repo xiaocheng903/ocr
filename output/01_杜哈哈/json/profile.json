@@ -1,0 +1,27 @@
+{
+  "name": "杜哈哈",
+  "gender": "男",
+  "ethnicity": "回族",
+  "id_number": "110101199001011234",
+  "birth_date": "1990-01-01",
+  "address": "江苏省无锡市市市中心区区建设路789号",
+  "education": {
+    "level": "本科",
+    "degree": "学士",
+    "major": "电气工程及其自动化",
+    "university": "中国科学技术大学",
+    "start_date": "2019-09-01",
+    "end_date": "2023-06-30",
+    "cert_no": "2019708370"
+  },
+  "employment": {
+    "company": "腾讯科技（深圳）有限公司",
+    "title": "架构师",
+    "hire_date": "2017-06-21",
+    "resign_date": "2020-12-04",
+    "department": "财务部"
+  },
+  "bank_name": "平安银行",
+  "bank_card": "6225368195723128741",
+  "phone": "19927190172"
+}
